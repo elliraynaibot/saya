@@ -38,7 +38,11 @@
   {%- if article.image != blank and section.settings.image_layout == 'split' -%}
     <div class="section-split">
       <div class="section-split__column section-split__column--image {% unless section.settings.add_image_spacing %}section-split__column--flushed{% endunless %}">
-        {{- article.image | image_url: width: article.image.width | image_tag: sizes: '(max-width: 699px) 100vw, 50vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', class: 'size-full' -}}
+        {%- assign max_width = 1400 -%}
+        {%- if article.image.width < max_width -%}
+          {%- assign max_width = article.image.width -%}
+        {%- endif -%}
+        {{- article.image | image_url: width: max_width | image_tag: loading: 'eager', decoding: 'async', sizes: '(max-width: 699px) 100vw, 50vw', widths: '400,800,1200,1400', class: 'size-full' -}}
       </div>
 
       <div class="content-box align-self-center">
@@ -63,7 +67,11 @@
         <h1 class="{{ section.settings.heading_size }} text-center isolate">{{ article.title }}</h1>
 
         {%- if article.image != blank -%}
-          {{- article.image | image_url: width: article.image.width | image_tag: sizes: '(max-width: 699px) 100vw, 50vw', widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', class: 'blog-post-banner__image' -}}
+          {%- assign max_width = 1400 -%}
+          {%- if article.image.width < max_width -%}
+            {%- assign max_width = article.image.width -%}
+          {%- endif -%}
+          {{- article.image | image_url: width: max_width | image_tag: loading: 'eager', decoding: 'async', sizes: '(max-width: 699px) 100vw, 50vw', widths: '400,800,1200,1400', class: 'blog-post-banner__image' -}}
         {%- endif -%}
 
         {%- if article_meta != blank -%}

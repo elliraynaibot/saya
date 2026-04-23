@@ -40,7 +40,11 @@ Supported parameters
       -%}
 
       <div class="blog-post-card__image-container overflow-hidden">
-        {{- image | image_url: width: image.width | image_tag: loading: loading_strategy, sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400', class: 'w-full zoom-image group-hover:zoom' -}}
+        {%- assign max_width = 800 -%}
+        {%- if image.width < max_width -%}
+          {%- assign max_width = image.width -%}
+        {%- endif -%}
+        {{- image | image_url: width: max_width | image_tag: loading: loading_strategy, decoding: 'async', sizes: sizes, widths: '300,600,800', class: 'w-full zoom-image group-hover:zoom' -}}
       </div>
     {%- endif -%}
   {%- else -%}

@@ -1,0 +1,1195 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_eieeEJ": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_video_slide_MYtTHt": {
+          "type": "_slideshow-video-slide",
+          "name": "t:sections.slideshow.blocks.video.name",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "video": "shopify://files/videos/SayLA Home Page Banner Video (Optimized).mp4",
+            "slide_link": "",
+            "content_max_width": 820,
+            "mobile_content_position": "place-self-end-center",
+            "desktop_content_position": "sm:place-self-center-end",
+            "overlay_color": "#231f20",
+            "overlay_opacity": 20
+          },
+          "blocks": {
+            "heading_PpXiQR": {
+              "type": "heading",
+              "settings": {
+                "text": "Nourish your lips | reset your mind",
+                "heading_size": "h1",
+                "html_tag": "h1",
+                "indent": "none",
+                "highlight_effect": "none",
+                "highlight_accent_color": "#ffffff",
+                "highlight_text_color": "#ffffff"
+              },
+              "blocks": {}
+            },
+            "button_6TA899": {
+              "type": "button",
+              "name": "t:blocks.button.name",
+              "settings": {
+                "text": "Shop now",
+                "url": "shopify://collections/lip-balms",
+                "open_in_new_tab": false,
+                "style": "solid",
+                "background": "#c6aa77",
+                "text_color": "#231f20"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_PpXiQR",
+            "button_6TA899"
+          ]
+        },
+        "slideshow-controls": {
+          "type": "_slideshow-controls",
+          "static": true,
+          "settings": {
+            "controls_style": "line",
+            "controls_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "slideshow_video_slide_MYtTHt"
+      ],
+      "name": "t:sections.slideshow.name",
+      "settings": {
+        "allow_transparent_header": false,
+        "image_size": "lg",
+        "transition_type": "curtain",
+        "autoplay": false,
+        "pause_auto_rotate_on_hover": false,
+        "cycle_speed": 6,
+        "background": "#000000"
+      }
+    },
+    "parallax_kpqka4": {
+      "type": "Parallax",
+      "blocks": {
+        "heading_fnAY6z": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>CLEAN LIP BALM <em>with</em><br/>DAILY AFFIRMATIONS</p>",
+            "heading_tag": "h1",
+            "font_size_desktop": 72,
+            "font_size_mobile": 36
+          }
+        },
+        "html_RQztjG": {
+          "type": "html",
+          "settings": {
+            "html": "<title>Gold Line </title>\n<style>\n  .gold-line {\n    width: 90%; /* Set width, e.g., 100% of parent */\n    height: 1px; /* Set line thickness */\n    background-color: #c6aa77; /* Set line color to black */\n    margin: 0px 0; /* Optional: Add vertical spacing */\n  }\n</style>\n\n\n\n  <div class=\"gold-line\"></div>"
+          }
+        },
+        "text_Bdc7R3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>NOURISH YOUR LIPS | RESET YOUR MIND</strong></p>",
+            "font_size_desktop": 20,
+            "font_size_mobile": 18
+          }
+        },
+        "button_h3Qzfa": {
+          "type": "button",
+          "settings": {
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://collections/lip-balms",
+            "btn_shape": "pill",
+            "color_btn_fill": "#231f20",
+            "color_btn_border": "rgba(0,0,0,0)",
+            "color_btn_text": "#f1efef",
+            "color_btn_fill_hover": "#231f20",
+            "color_btn_border_hover": "rgba(0,0,0,0)",
+            "color_btn_text_hover": "#f1efef",
+            "font_size_btn_desktop": 20,
+            "font_size_btn_mobile": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_fnAY6z",
+        "html_RQztjG",
+        "text_Bdc7R3",
+        "button_h3Qzfa"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "/* Mobile styles */.luna-templates__parallax-text-container {background: rgb(230, 211, 189, 0.7) !important;}",
+        "@media (min-width: 750px) {.luna-templates__parallax-text-container {margin-right: 50px; text-align: right; }}",
+        "H1 {font-family: \"Grande\" !important; font-weight: normal; text-color: #ffffff;}",
+        "p {font-family: Urbanist;}",
+        "h1 em {font-family: Urbanist; font-style: normal;}",
+        ".LT__btn-pill {letter-spacing: 3.6px; font-weight: 200; font-family: Roboto;}"
+      ],
+      "name": "💫 Parallax Image Banner",
+      "settings": {
+        "parallax_on": false,
+        "image_bg": "shopify://shop_images/SayLA_home_page_banner_2.webp",
+        "image_bg_mobile": "shopify://shop_images/SayLA_homepage_mobile.webp",
+        "color_text": "#231f20",
+        "color_bg": "rgba(0,0,0,0)",
+        "text_width": 45,
+        "container_shape": "rounded",
+        "section_padding": 100,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "rich_text_CR7B9k": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_aWJPVk": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-heart",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Pearl.svg",
+            "icon_width": 36,
+            "mobile_icon_width": 32,
+            "icon_stroke_width": 1.5
+          }
+        },
+        "heading_tAPUhC": {
+          "type": "heading",
+          "settings": {
+            "text": "Blending clean beauty with soul care",
+            "heading_tag": "h3",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_VxtaKq": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Organic lip balm infused with affirmations that ground you in truth.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_aWJPVk",
+        "heading_tAPUhC",
+        "richtext_VxtaKq"
+      ],
+      "custom_css": [],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "animated_stickers_C3mPdV": {
+      "type": "animated-stickers",
+      "name": "💫 Animated Sticker",
+      "settings": {
+        "image": "shopify://shop_images/SayLaSubmark-Black.svg",
+        "animation": "spin-scroll",
+        "animationSpeed": 16,
+        "sticker_align_desktop": "center",
+        "sticker_top_desktop": 25,
+        "sticker_side_desktop": 43,
+        "sticker_width_desktop": 85,
+        "mobile_hide": false,
+        "sticker_align_mobile": "center",
+        "sticker_top_mobile": 30,
+        "sticker_width_mobile": 125,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "animated_stickers_UnqH6i": {
+      "type": "animated-stickers",
+      "name": "💫 Animated Sticker",
+      "settings": {
+        "image": "shopify://shop_images/SayLa-Flower_3_4x_c940086a-0305-422c-a8df-8373d34f0317.png",
+        "animation": "float-scroll",
+        "animationSpeed": 10,
+        "sticker_align_desktop": "right",
+        "sticker_top_desktop": -250,
+        "sticker_side_desktop": 4,
+        "sticker_width_desktop": 140,
+        "mobile_hide": true,
+        "sticker_align_mobile": "left",
+        "sticker_top_mobile": -100,
+        "sticker_width_mobile": 65,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "dynamic-grid-3": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic-grid-item-1": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 2,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 2,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich-text-1": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>SayLa blends clean beauty with soul care</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich-text-1"
+          ]
+        },
+        "dynamic-grid-item-2": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "right",
+            "desktop_row_start": 4,
+            "desktop_column_start": 1,
+            "desktop_column_end": 6,
+            "desktop_horizontal_adjustment": 2,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 6,
+            "mobile_column_start": 1,
+            "mobile_column_end": 5,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": -4,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "dynamic-grid-heading-1": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Turn self-care",
+                "show_text_vertically": false,
+                "font_size_desktop": 5.5,
+                "font_size_mobile": 11,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "italic",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic-grid-heading-1"
+          ]
+        },
+        "dynamic-grid-item-3": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 4,
+            "desktop_column_start": 11,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": -2,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 7,
+            "mobile_column_start": 4,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 4,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "dynamic-grid-heading-1": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "into a moment of meaning",
+                "show_text_vertically": false,
+                "font_size_desktop": 5.5,
+                "font_size_mobile": 11,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "italic",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic-grid-heading-1"
+          ]
+        },
+        "dynamic-grid-item-4": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "desktop_only",
+            "text_alignment": "center",
+            "desktop_row_start": 4,
+            "desktop_column_start": 8,
+            "desktop_column_end": 9,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": -5,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich-text-1": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Our organic lip balm is paired with daily affirmations to ground your day in truth. Created for modern women seeking peace, purpose, and presence.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich-text-1"
+          ]
+        },
+        "dynamic-grid-item-5": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 8,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 11,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich-text-1": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>sustainable beauty.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich-text-1"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic-grid-item-1",
+        "dynamic-grid-item-2",
+        "dynamic-grid-item-3",
+        "dynamic-grid-item-4",
+        "dynamic-grid-item-5"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-5",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": false,
+        "add_horizontal_spacing": false,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "lip-balms",
+            "products_count": 6,
+            "title": "Lip Balms",
+            "content": "<p>Explore our full collection of SayLa lip balms—each one a blend of clean, organic ingredients and truth-infused affirmations. </p>",
+            "link": "{{ block.settings.collection.url }}"
+          }
+        },
+        "collection_GK3heG": {
+          "type": "collection",
+          "settings": {
+            "collection": "gift-sets",
+            "products_count": 6,
+            "title": "{{ block.settings.collection.title }}",
+            "content": "<p>Thoughtfully paired for meaning and impact, our 3-pack balm sets make the perfect gift—for yourself or someone who needs a reminder of what’s true.</p>",
+            "link": "{{ block.settings.collection.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection_GK3heG"
+      ],
+      "custom_css": [
+        ".container section-spacing {padding-block: 50px;}",
+        ".section-spacing {padding-block-start: 150px; padding-block-end: 100px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "tabs_alignment": "center",
+        "tabs_icon": "none",
+        "show_view_all_button": false,
+        "show_scrolling_bar": true
+      }
+    },
+    "dynamic-grid": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic-grid-item-1": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 1,
+            "desktop_column_end": 6,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 7,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 2,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic-grid-heading-1": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "For the Woman Who Knows There's More",
+                "show_text_vertically": false,
+                "font_size_desktop": 4,
+                "font_size_mobile": 9,
+                "font_size_line_height": 0.9,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "underline_pencil",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "subheading_nBbQLM": {
+              "type": "subheading",
+              "name": "t:blocks.subheading.name",
+              "settings": {
+                "text": "A daily ritual to pause and reset."
+              },
+              "blocks": {}
+            },
+            "rich-text-1": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Let each affirmation-based lip balm invite you to pause and speak life. For deeper encouragement, open the SayLa app and receive a full affirmation written just for you.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            },
+            "button-1": {
+              "type": "button",
+              "settings": {
+                "text": "Start your Ritual",
+                "url": "shopify://collections/lip-balms",
+                "open_in_new_tab": false,
+                "style": "solid",
+                "background": "",
+                "text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic-grid-heading-1",
+            "subheading_nBbQLM",
+            "rich-text-1",
+            "button-1"
+          ]
+        },
+        "dynamic-grid-item-4": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 8,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": -2.5,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 3.5,
+            "parallax_speed": -6,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "image-with-caption-1": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/SayLA_homepage_mobile.webp",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image-with-caption-1"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic-grid-item-1",
+        "dynamic-grid-item-4"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "text_with_icons_HBrMcc": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_WctAmK": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLA_USDA_Organic.png",
+            "title": "Organic Formula",
+            "heading_tag": "h6",
+            "content": ""
+          }
+        },
+        "item_NweXYi": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLA_Clean_Ingredients.png",
+            "title": "Clean Ingredients",
+            "heading_tag": "h6",
+            "content": ""
+          }
+        },
+        "item_m3AakA": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLA_Daily_Affirmations.png",
+            "title": "Daily Affirmations",
+            "heading_tag": "h6",
+            "content": ""
+          }
+        },
+        "item_rk7FUn": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLA_Cruelty_Free.png",
+            "title": "Cruelty-Free",
+            "heading_tag": "h6",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_WctAmK",
+        "item_NweXYi",
+        "item_m3AakA",
+        "item_rk7FUn"
+      ],
+      "custom_css": [
+        "p {font-family: Urbanist;}",
+        ".section-spacing {padding-block-start: 100px; padding-block-end: 100px;}"
+      ],
+      "name": "t:sections.text_with_icons.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "subheading": "",
+        "title": "Where Lip Care Meets Soul Care",
+        "content": "",
+        "heading_tag": "h3",
+        "text_alignment": "center",
+        "items_per_row_desktop": 4,
+        "stack_on_mobile": true,
+        "separator_style": "vertical",
+        "icon_position": "stacked",
+        "icon_width": 68,
+        "mobile_icon_width": 68,
+        "item_text_alignment": "center"
+      }
+    },
+    "scrolling_content_4GfVjE": {
+      "type": "scrolling-content",
+      "blocks": {
+        "image_YxDPJz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SayLaLogomark-Pearl.svg",
+            "image_mobile_width": 50,
+            "image_width": 80
+          }
+        },
+        "text_gmcAA8": {
+          "type": "text",
+          "settings": {
+            "text": "Early Praise",
+            "icon_position": "before_text",
+            "highlight_effect": "none",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YxDPJz",
+        "text_gmcAA8"
+      ],
+      "name": "t:sections.scrolling_content.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "scrolling_speed": 0.3,
+        "scroll_direction": "end-to-start",
+        "section_rotation": 0,
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 10,
+        "text_font_size_desktop": 4.5,
+        "section_vertical_spacing_mobile": 24,
+        "section_vertical_spacing_desktop": 24,
+        "item_horizontal_spacing_mobile": 40,
+        "item_horizontal_spacing_desktop": 65
+      }
+    },
+    "testimonials_VwKAPf": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_NBtp8N": {
+          "type": "testimonial",
+          "settings": {
+            "show_rating": true,
+            "rating": 5,
+            "author": "—Jessica, Atlanta, GA",
+            "title": "“I’ve never seen a product combine beauty and emotional well-being like this. It’s more than lip balm—it’s a moment of calm in my day.”",
+            "heading_tag": "h3",
+            "product": "",
+            "position": "place-self-start"
+          }
+        },
+        "testimonial_TMEJnz": {
+          "type": "testimonial",
+          "settings": {
+            "show_rating": true,
+            "rating": 5,
+            "author": "—Beta Tester, via Instagram DM",
+            "title": "“This is exactly the kind of soul-nourishing product I’ve been missing. Intentional, beautiful, and grounding.”",
+            "heading_tag": "h3",
+            "product": "",
+            "position": "place-self-start"
+          }
+        },
+        "testimonial_QCftdQ": {
+          "type": "testimonial",
+          "settings": {
+            "show_rating": true,
+            "rating": 5,
+            "author": "—Lauren, Nashville, TN",
+            "title": "“The message on the balm was exactly what I needed that day. It’s such a small thing—but it shifted my whole mindset.”",
+            "heading_tag": "h3",
+            "product": "",
+            "position": "place-self-start"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_NBtp8N",
+        "testimonial_TMEJnz",
+        "testimonial_QCftdQ"
+      ],
+      "custom_css": [
+        "p {font-family: Urbanist; text-transform: none; line-height: 1.2;}",
+        ".section-spacing {padding-block-start: 100px; padding-block-end: 100px;}"
+      ],
+      "name": "t:sections.testimonials.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "text_alignment": "center",
+        "image_position": "start",
+        "autoplay": true,
+        "cycle_speed": 6
+      }
+    },
+    "text-with-media": {
+      "type": "text-with-media",
+      "blocks": {
+        "icon_FwweiX": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "picto-heart",
+            "image": "shopify://shop_images/SayLaLogomark-Black.png",
+            "icon_width": 48,
+            "mobile_icon_width": 32,
+            "icon_stroke_width": 1.5,
+            "position": "top_center"
+          }
+        },
+        "richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h2>Why I Started SayLA</h2><p>SayLa was born in a hard season—when life felt heavy and I was longing for peace and clarity. One day, I had a thought:<em>what if something as simple as lip balm could remind me of truth?</em></p><p>I created SayLa to offer a daily ritual to reset your mind and speak what’s true. </p>",
+            "position": "middle_center"
+          }
+        },
+        "button-1": {
+          "type": "button",
+          "settings": {
+            "text": "Read more",
+            "url": "shopify://pages/our-story",
+            "position": "middle_center",
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_FwweiX",
+        "richtext-1",
+        "button-1"
+      ],
+      "custom_css": [
+        ".prose {background-color: #eee8e3; border-radius: 30px; padding-block: 40px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "content_position": "end",
+        "content_percentage_width": 55,
+        "content_image_background": "shopify://shop_images/SayLA_Gold_Background_2600x1400_cbcc03dc-682a-4ef7-a6db-15ef6e9bc0c4.png",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "add_media_spacing": false,
+        "autoplay_video": false,
+        "primary_image": "shopify://shop_images/Headshot_with_lip_balm.png",
+        "secondary_media_width": 40,
+        "secondary_media_mobile_width": 65,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
+    },
+    "dynamic_grid_kHf9YW": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_nFpPaa": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "right",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 6,
+            "desktop_horizontal_adjustment": 2,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 2,
+            "mobile_column_start": 1,
+            "mobile_column_end": 6,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": -3.5,
+            "parallax_speed": -4,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "dynamic_grid_heading_JXRVBm": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "A moment to <em>reset</em>.",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 11,
+                "font_size_line_height": 1,
+                "html_tag": "h3",
+                "indent": "none",
+                "highlight_effect": "circle",
+                "highlight_accent_color": "#c6aa77",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_JXRVBm"
+          ]
+        },
+        "dynamic_grid_item_kfdCa3": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 3,
+            "desktop_column_start": 11,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": -2,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 2,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 4,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "dynamic_grid_heading_UbHUfN": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "A practice of speaking<em> truth</em>.",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 11,
+                "font_size_line_height": 1,
+                "html_tag": "h3",
+                "indent": "none",
+                "highlight_effect": "circle",
+                "highlight_accent_color": "#c6aa77",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_UbHUfN"
+          ]
+        },
+        "dynamic_grid_item_kUk7MA": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "desktop_only",
+            "text_alignment": "center",
+            "desktop_row_start": 1,
+            "desktop_column_start": 8,
+            "desktop_column_end": 10,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": -2,
+            "mobile_row_start": 1,
+            "mobile_column_start": 4,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": -5,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_xEUD4m": {
+              "type": "image-with-caption",
+              "name": "t:blocks.image.name",
+              "settings": {
+                "image": "shopify://shop_images/SayLa-Tube-Peace_2x_c55d2639-5390-43ff-8da7-b324f3d1d303.png",
+                "caption": "",
+                "max_width": 63,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_xEUD4m"
+          ]
+        },
+        "dynamic_grid_item_4hKxTk": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 7,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": -1.5,
+            "mobile_row_start": 7,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_T49YYb": {
+              "type": "_dynamic-grid-heading",
+              "name": "t:blocks.heading.name",
+              "settings": {
+                "text": "A quiet act of <em>becoming</em>.",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 10,
+                "font_size_line_height": 1,
+                "html_tag": "h3",
+                "indent": "none",
+                "highlight_effect": "circle",
+                "highlight_accent_color": "#c6aa77",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_T49YYb"
+          ]
+        },
+        "dynamic_grid_item_HLbzN8": {
+          "type": "_dynamic-grid-item",
+          "name": "Grid item",
+          "settings": {
+            "visibility": "mobile_only",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 9,
+            "mobile_column_start": 1,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_JHDhbp": {
+              "type": "image-with-caption",
+              "name": "t:blocks.image.name",
+              "settings": {
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_JHDhbp"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_nFpPaa",
+        "dynamic_grid_item_kfdCa3",
+        "dynamic_grid_item_kUk7MA",
+        "dynamic_grid_item_4hKxTk",
+        "dynamic_grid_item_HLbzN8"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-5",
+        "allow_transparent_header": false,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": false,
+        "add_horizontal_spacing": false,
+        "gap": 16,
+        "mobile_gap": 20,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "text-with-media-2": {
+      "type": "text-with-media",
+      "blocks": {
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "picto-tree",
+            "icon_width": 64,
+            "mobile_icon_width": 40,
+            "icon_stroke_width": 2.5,
+            "position": "top_left"
+          }
+        },
+        "heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Commitments to the planet.",
+            "heading_tag": "h2",
+            "position": "top_left",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Our mission extends beyond skincare—we’re dedicated to making a meaningful difference for the planet and its people. Every purchase on our Eshop helps us grow this impact. Since 2018, we’ve planted 200,000 trees worldwide—nurturing ecosystems and supporting reforestation, one order at a time.</p>",
+            "position": "bottom_left"
+          }
+        },
+        "button-1": {
+          "type": "button",
+          "settings": {
+            "text": "Learn more",
+            "url": "",
+            "position": "bottom_left",
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon-1",
+        "heading-1",
+        "richtext-1",
+        "button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-6",
+        "content_position": "end",
+        "content_percentage_width": 50,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20,
+        "add_media_spacing": false,
+        "autoplay_video": true,
+        "secondary_media_width": 45,
+        "secondary_media_mobile_width": 45,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-end-start",
+        "secondary_media_shape": "blob-5"
+      }
+    },
+    "countdown": {
+      "type": "countdown",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "image": "shopify://shop_images/Sayla_App_coming_soon.png",
+        "image_position": "split",
+        "image_size": "md",
+        "add_image_spacing": true,
+        "subheading": "",
+        "title": "The Sayla App",
+        "heading_tag": "h2",
+        "content": "<p>Our affirmations don’t stop with lip balm. We’re building an app to bring soul care to your screen—personalized daily encouragement based on what your heart needs most.</p>",
+        "button_text": "Join the Waitlist",
+        "button_url": "shopify://pages/sayla-app",
+        "button_style": "solid",
+        "expiration_date": "2025-09-15",
+        "expiration_behavior": "hide",
+        "timer_size": "h1",
+        "show_timer_borders": false,
+        "animate_timer_numbers": false,
+        "caption_text": "Coming soon",
+        "caption_scrolling": true,
+        "caption_text_color": "#f1efef"
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_TnDCDx": {
+          "type": "blog",
+          "settings": {
+            "blog": "the-power-of-words",
+            "posts_count": 3
+          }
+        }
+      },
+      "block_order": [
+        "blog_TnDCDx"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "mobile_layout": "carousel",
+        "desktop_layout": "carousel",
+        "title": "The Power of Words",
+        "heading_tag": "h3",
+        "scrolling_title_separator": "none",
+        "scrolling_title": false,
+        "button_link": "shopify://blogs/the-power-of-words",
+        "button_text": "read more",
+        "button_style": "outline",
+        "blog_post_card_heading_size": "h5",
+        "separator_style": "border",
+        "show_category": true,
+        "show_date": false,
+        "show_excerpt": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_eieeEJ",
+    "parallax_kpqka4",
+    "rich_text_CR7B9k",
+    "animated_stickers_C3mPdV",
+    "animated_stickers_UnqH6i",
+    "dynamic-grid-3",
+    "featured-collections",
+    "dynamic-grid",
+    "text_with_icons_HBrMcc",
+    "scrolling_content_4GfVjE",
+    "testimonials_VwKAPf",
+    "text-with-media",
+    "dynamic_grid_kHf9YW",
+    "text-with-media-2",
+    "countdown",
+    "blog-posts"
+  ]
+}

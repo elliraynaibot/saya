@@ -1,0 +1,408 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_YDhncz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h4"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "text_Q3ngTL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.product_specific_content.value.product_tagline | metafield_tag }}</p>"
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "separate_options": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "swatch_selector_size": "lg",
+            "block_selector_style": "outline",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "show_quantity_selector": true,
+            "add_quantity_selector_spacing": false,
+            "atc_button_style": "solid",
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "icons_with_text_XRGzyQ": {
+          "type": "icons_with_text",
+          "settings": {
+            "items_per_row": 3,
+            "icon_1": "shopify://shop_images/SayLA_USDA_Organic.png",
+            "icon_1_width": 50,
+            "icon_1_text": "Certified Organic",
+            "icon_2": "shopify://shop_images/SayLA_Cruelty_Free.png",
+            "icon_2_width": 50,
+            "icon_2_text": "Cruelty-Free",
+            "icon_3": "shopify://shop_images/SayLA_Daily_Affirmations.png",
+            "icon_3_width": 50,
+            "icon_3_text": "Daily Affirmations",
+            "icon_4_width": 24,
+            "icon_4_text": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "uppercase_title": true,
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Black.png"
+          }
+        },
+        "accordion_gBwH4M": {
+          "type": "accordion",
+          "settings": {
+            "title": "Ingredients & Materials",
+            "content": "<p>All SayLa lip balms are crafted with a certified organic base made from beeswax, coconut oil, sunflower seed oil, and natural essential oils. Free from synthetic flavors, parabens, and phthalates.</p>",
+            "uppercase_title": true,
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Black.png",
+            "page": ""
+          }
+        },
+        "accordion_9JiR69": {
+          "type": "accordion",
+          "settings": {
+            "title": "Product Features",
+            "content": "<ul><li>USDA-certified organic lip balm base</li><li>Key ingredients: organic beeswax, coconut oil, sunflower oil, and vitamin E</li><li>Naturally flavored—no synthetic additives or dyes</li><li>Euro-style tube printed with the affirmation theme: <em>Resilient</em></li><li>Made in the USA</li><li>Shelf life: 18 months</li></ul>",
+            "uppercase_title": true,
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Black.png",
+            "page": ""
+          }
+        },
+        "accordion_Ndb8pG": {
+          "type": "accordion",
+          "settings": {
+            "title": "How to Use + App Integration",
+            "content": "<p>Apply balm as needed to soothe and hydrate lips. Each balm is printed with a soul-centered affirmation prompt—like “Worthy”—to encourage truth-speaking.</p><p>Scan the QR code on the box to access the SayLa app, where you'll find full affirmations and personalized encouragement.</p>",
+            "uppercase_title": true,
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Black.png",
+            "page": ""
+          }
+        },
+        "accordion_Ctf7Jq": {
+          "type": "accordion",
+          "settings": {
+            "title": "Questions, Answered",
+            "content": "<ul><li><strong>What makes this lip balm different?</strong></li></ul><p>SayLa turns a simple swipe of balm into a small soul-care ritual. Each tube pairs a clean, organic formula with a truth-based affirmation to help you pause, breathe, and come back to what’s steady and grounding.</p><p></p><ul><li><strong>Is the formula organic and clean?</strong></li></ul><p>Yes. Our balm is made with USDA-certified organic ingredients and contains no parabens, petroleum, synthetic fragrances, or fillers. It’s conscious lip care you can feel good about using every day.</p><p></p><ul><li><strong>How does the balm connect with the SayLa App?</strong></li></ul><p>Every tube includes a QR code that unlocks your full affirmation and personalized encouragement inside the SayLa App. The app learns what you need most—peace, confidence, resilience—and sends gentle prompts that pair with your daily lip balm ritual.</p><p></p><ul><li><strong>Is this safe for sensitive lips?</strong></li></ul><p>Our formula is gentle and dermatologist-friendly. If you have known sensitivities to natural oils, beeswax, or essential oils, we recommend reviewing the ingredient list and doing a small patch test before regular use.<br/></p><ul><li><strong>How long does one tube typically last?</strong></li></ul><p>With normal daily use, most customers find that one tube lasts about 6–8 weeks. Your timing will depend on how often you apply it throughout the day.<br/></p><ul><li><strong>Is this a good gift?</strong></li></ul><p>Yes. Each balm arrives thoughtfully designed and beautifully packaged, making it a meaningful gift for women who love intentional, purpose-driven self-care.<br/></p><ul><li><strong>Is SayLa faith-based or for everyone?</strong></li></ul><p>SayLa is inspired by timeless, faith-rooted truths, but it’s created to be welcoming and accessible to anyone. Our affirmations are written to be universally true—grounding, encouraging, and never preachy or exclusive.</p>",
+            "uppercase_title": true,
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Black.png",
+            "page": ""
+          }
+        },
+        "offers_jLTKXA": {
+          "type": "offers",
+          "settings": {
+            "layout": "carousel",
+            "icon_position": "stacked",
+            "text_alignment": "center",
+            "offer_1_icon_width": 16,
+            "offer_1_subheading": "Coming Soon: The SayLA App",
+            "offer_1_content": "Our affirmations don’t stop with lip balm. We’re building an app to bring soul care to your screen—personalized daily encouragement based on what your heart needs most. <a href=\"/pages/sayla-app-waitlist\" title=\"SayLA App Waitlist\"><strong>Join the waitlist →</strong></a>",
+            "offer_1_background": "#e6d3bd",
+            "offer_1_text_color": "#231f20",
+            "offer_2_icon_width": 16,
+            "offer_2_subheading": "",
+            "offer_2_content": "",
+            "offer_2_background": "#f9f9f9",
+            "offer_2_text_color": "#000000",
+            "offer_3_icon_width": 16,
+            "offer_3_subheading": "",
+            "offer_3_content": "",
+            "offer_3_background": "#f9f9f9",
+            "offer_3_text_color": "#000000"
+          }
+        },
+        "complementary_products_inTEgq": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "Pairs well with",
+            "products_count": 2
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_YDhncz",
+        "title",
+        "price",
+        "text_Q3ngTL",
+        "payment_terms",
+        "variant_picker",
+        "buy_buttons",
+        "icons_with_text_XRGzyQ",
+        "description",
+        "accordion_gBwH4M",
+        "accordion_9JiR69",
+        "accordion_Ndb8pG",
+        "accordion_Ctf7Jq",
+        "offers_jLTKXA",
+        "complementary_products_inTEgq"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "allow_transparent_header": false,
+        "transparent_header_use_primary_colors": false,
+        "add_top_spacing": true,
+        "show_sticky_add_to_cart": true,
+        "product_media_size": 50,
+        "content_alignment": "left",
+        "desktop_media_layout": "grid_half_highlight_first",
+        "desktop_carousel_controls": "thumbnails_over",
+        "mobile_controls": "numbers",
+        "enable_media_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 2.5
+      }
+    },
+    "animated_stickers_NwCUFD": {
+      "type": "animated-stickers",
+      "name": "💫 Animated Sticker",
+      "settings": {
+        "image": "shopify://shop_images/SayLa-Flower_3_4x_c940086a-0305-422c-a8df-8373d34f0317.png",
+        "animation": "none",
+        "animationSpeed": 20,
+        "sticker_align_desktop": "left",
+        "sticker_top_desktop": 40,
+        "sticker_side_desktop": 8,
+        "sticker_width_desktop": 190,
+        "mobile_hide": true,
+        "sticker_align_mobile": "center",
+        "sticker_top_mobile": 40,
+        "sticker_width_mobile": 100,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "text_with_icons_DJQBDQ": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_wjHp68": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "title": "Affirmation Infused",
+            "heading_tag": "h5",
+            "content": "{{ product.metafields.custom.product_specific_content.value.why_you_ll_love_it_1 | metafield_tag }}"
+          }
+        },
+        "item_7VYXqk": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "title": "Flavor Profile",
+            "heading_tag": "h5",
+            "content": "{{ product.metafields.custom.product_specific_content.value.why_you_ll_love_it_flavor_profile | metafield_tag }}"
+          }
+        },
+        "item_YxMNba": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "title": "Clean Beauty Formula",
+            "heading_tag": "h5",
+            "content": "<p>Made in the USA with USDA-certified organic ingredients. No toxins, parabens, or synthetic additives.</p>"
+          }
+        },
+        "item_cjiEWm": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "title": "Soul-Care Ritual",
+            "heading_tag": "h5",
+            "content": "{{ product.metafields.custom.product_specific_content.value.why_you_ll_love_it_soul_care_ritual | metafield_tag }}"
+          }
+        },
+        "item_y9T8Ua": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "title": "Meaningful Gift",
+            "heading_tag": "h5",
+            "content": "{{ product.metafields.custom.product_specific_content.value.why_you_ll_love_it_gift | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "item_wjHp68",
+        "item_7VYXqk",
+        "item_YxMNba",
+        "item_cjiEWm",
+        "item_y9T8Ua"
+      ],
+      "name": "t:sections.text_with_icons.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "subheading": "more than a balm, a ritual of truth",
+        "title": "Why You'll Love It",
+        "content": "",
+        "heading_tag": "h2",
+        "text_alignment": "center",
+        "items_per_row_desktop": 2,
+        "stack_on_mobile": true,
+        "separator_style": "horizontal",
+        "icon_position": "inline",
+        "icon_width": 48,
+        "mobile_icon_width": 44,
+        "item_text_alignment": "left"
+      }
+    },
+    "17535552382efeabd2": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_Y9cAkg": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        },
+        "section-header": {
+          "type": "_section-header",
+          "disabled": true,
+          "static": true,
+          "settings": {
+            "subheading": "",
+            "title": "Header",
+            "content": "<p>Use this content to share information about your store and products.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_Y9cAkg"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true
+      }
+    },
+    "blog_posts_ERztBe": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_y4KRjy": {
+          "type": "article",
+          "settings": {
+            "article": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_y4KRjy"
+      ],
+      "disabled": true,
+      "name": "t:sections.blog_posts.name",
+      "settings": {
+        "color_scheme": "",
+        "mobile_layout": "carousel",
+        "desktop_layout": "carousel",
+        "title": "Related Articles",
+        "heading_tag": "h3",
+        "scrolling_title_separator": "none",
+        "scrolling_title": false,
+        "button_link": "",
+        "button_text": "View all",
+        "button_style": "link",
+        "blog_post_card_heading_size": "h5",
+        "separator_style": "space",
+        "show_category": false,
+        "show_date": false,
+        "show_excerpt": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "blocks": {
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "",
+            "title": "You may also like",
+            "content": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "settings": {
+        "color_scheme": "",
+        "stack_products": false,
+        "recommendations_count": 4,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "show_view_all_button": true,
+        "show_scrolling_bar": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "animated_stickers_NwCUFD",
+    "text_with_icons_DJQBDQ",
+    "17535552382efeabd2",
+    "blog_posts_ERztBe",
+    "related-products"
+  ]
+}

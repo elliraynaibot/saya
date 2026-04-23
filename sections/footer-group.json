@@ -1,0 +1,228 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "trust-icons": {
+      "type": "trust-icons",
+      "blocks": {
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20,
+            "title": "Free U.S. Shipping",
+            "content": "on orders over $40"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20,
+            "title": "Customer service",
+            "content": "We are available from monday to friday to answer your questions."
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20,
+            "title": "Secure payment",
+            "content": "Your payment information is processed securely."
+          }
+        }
+      },
+      "block_order": [
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "item_heading_style": "subheading"
+      }
+    },
+    "scrolling_content_NnwtcY": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_KT7PGE": {
+          "type": "text",
+          "settings": {
+            "text": "Say It",
+            "icon_position": "before_text",
+            "highlight_effect": "none",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "image_8inC8y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SayLaLogomark-Black.png",
+            "image_mobile_width": 50,
+            "image_width": 80
+          }
+        },
+        "text_7qVPUt": {
+          "type": "text",
+          "settings": {
+            "text": "Know It",
+            "icon_position": "before_text",
+            "highlight_effect": "none",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "image_LgYiUt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SayLaLogomark-Black.png",
+            "image_mobile_width": 50,
+            "image_width": 80
+          }
+        },
+        "text_3bTBQK": {
+          "type": "text",
+          "settings": {
+            "text": "Be It",
+            "icon_position": "before_text",
+            "highlight_effect": "none",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "image_RL3UCz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SayLaLogomark-Black.png",
+            "image_mobile_width": 50,
+            "image_width": 80
+          }
+        }
+      },
+      "block_order": [
+        "text_KT7PGE",
+        "image_8inC8y",
+        "text_7qVPUt",
+        "image_LgYiUt",
+        "text_3bTBQK",
+        "image_RL3UCz"
+      ],
+      "name": "t:sections.scrolling_content.name",
+      "settings": {
+        "color_scheme": "scheme-6",
+        "scrolling_speed": 0.3,
+        "scroll_direction": "end-to-start",
+        "section_rotation": 0,
+        "pause_on_hover": true,
+        "text_font": "heading",
+        "text_font_size_mobile": 13,
+        "text_font_size_desktop": 5.5,
+        "section_vertical_spacing_mobile": 24,
+        "section_vertical_spacing_desktop": 24,
+        "item_horizontal_spacing_mobile": 40,
+        "item_horizontal_spacing_desktop": 65
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "About SayLa",
+            "content": "<p>SayLa transforms your daily lip balm ritual into a practice of truth and presence. We create organic balms infused with affirmations that ground modern women in peace, turning simple self-care into soul care. Phil. 4:8</p>",
+            "enable_follow_on_shop": true
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer-about",
+            "collapse_on_mobile": true,
+            "show_menu_title": true,
+            "menu_title": "About"
+          }
+        },
+        "links_dcnU6X": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "collapse_on_mobile": true,
+            "show_menu_title": true,
+            "menu_title": "Help"
+          }
+        },
+        "newsletter_tPFPCm": {
+          "type": "newsletter",
+          "disabled": true,
+          "settings": {
+            "title": "Nourish Your Soul + Save 10%",
+            "content": "<p>Get 10% off your first order, plus uplifting rituals, gentle reminders, and mindful moments delivered straight to your inbox.</p>",
+            "disclaimer_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "links",
+        "links_dcnU6X",
+        "newsletter_tPFPCm"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": false,
+        "show_country_name": true,
+        "show_country_flag": true,
+        "show_locale_selector": false
+      }
+    },
+    "custom_liquid_qENUpB": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom_liquid.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What makes this lip balm {{ product.metafields.custom.affirmation_theme }}?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"The {{ product.metafields.custom.affirmation_theme }} theme is centered on truth that helps you remember your value and come back to what is steady and grounding each time you apply the balm.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How does this lip balm work with the SayLa App?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Each tube includes a QR code that unlocks your full affirmation and personalized encouragement inside the SayLa App. The app learns what you need most, such as peace, confidence, or resilience, and pairs those prompts with your daily lip balm ritual.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Is this lip balm organic and clean?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Our formula is made with USDA-certified organic ingredients and contains no parabens, petroleum, synthetic fragrances, or fillers.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What does the flavor smell and feel like?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Each balm is designed with a soft, comforting glide and a gentle aroma that matches the flavor, creating a small moment of ease every time you apply it.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Is this safe for sensitive lips or allergies?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Our formula is gentle and suitable for most skin types. If you have known sensitivities to natural oils, beeswax, or essential oils, we recommend reviewing the ingredient list and doing a small patch test before regular use.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How long does one tube typically last?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"With normal daily use, most customers find that one tube lasts about six to eight weeks. The exact timing depends on how often you apply it throughout the day.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Is this a good gift?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Each balm arrives thoughtfully designed and beautifully packaged, making it a meaningful gift for women who appreciate intentional, purpose-driven self-care.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Is SayLa faith-based or for everyone?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"SayLa is inspired by timeless, faith-rooted truths but is created to be welcoming and accessible to anyone. Our affirmations are written to be universally true, grounding, and encouraging, without being preachy or exclusive.\"\n      }      \n    }\n  ]\n}\n</script><script>\nwindow.addEventListener('load', function() {\n  setTimeout(function() {\n    // This loads the Google script file\n    var script = document.createElement('script');\n    script.async = true;\n    script.src = \"https://www.googletagmanager.com/gtag/js?id=GT-5R8SKPXL\";\n    document.head.appendChild(script);\n\n    // This starts the Google tracking\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n    gtag('config', 'GT-5R8SKPXL');\n    \n    console.log('Google Tag Manager loaded after 3s delay');\n  }, 3000); \n});\n</script>",
+        "text_alignment": "left",
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true
+      }
+    },
+    "custom_liquid_Qpiq7b": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom_liquid.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "liquid": "<meta name=\"facebook-domain-verification\" content=\"y2clyef04qj2gb6k1db0o39weohgnn\" />\n<meta name=\"facebook-domain-verification\" content=\"a69qtehfsj0ky4yqaj57iwvfmi32t9\" />\n<meta name=\"facebook-domain-verification\" content=\"k3f7r00y3g5yfjt28dt4eg0mqn37gk\" />\n<meta name=\"facebook-domain-verification\" content=\"hhhnaama7livy0cmsnav2hegc6bfwm\" />",
+        "text_alignment": "left",
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true
+      }
+    }
+  },
+  "order": [
+    "trust-icons",
+    "scrolling_content_NnwtcY",
+    "footer",
+    "custom_liquid_qENUpB",
+    "custom_liquid_Qpiq7b"
+  ]
+}

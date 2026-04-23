@@ -1,0 +1,645 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": false,
+        "content_width": "md"
+      }
+    },
+    "animated_stickers_wKPi3G": {
+      "type": "animated-stickers",
+      "name": "💫 Animated Sticker",
+      "settings": {
+        "image": "shopify://shop_images/SayLa-Flower_1_4x_df972d89-3a53-4213-9b5d-2e2a734ce59b.png",
+        "animation": "float-scroll",
+        "animationSpeed": 10,
+        "sticker_align_desktop": "left",
+        "sticker_top_desktop": 135,
+        "sticker_side_desktop": 6,
+        "sticker_width_desktop": 200,
+        "mobile_hide": true,
+        "sticker_align_mobile": "center",
+        "sticker_top_mobile": -50,
+        "sticker_width_mobile": 100,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "rich_text_KTHEpE": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_cdHx74": {
+          "type": "subheading",
+          "settings": {
+            "text": "<strong>sayla affirmations app</strong>"
+          }
+        },
+        "heading_QEJQCp": {
+          "type": "heading",
+          "settings": {
+            "text": "Your Daily Reset, Delivered",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_9F7ezB": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Daily affirmations by text or email. Personalized in 60 seconds.</p>"
+          }
+        },
+        "spacer_nTjgMr": {
+          "type": "spacer",
+          "settings": {
+            "desktop_spacing": 40,
+            "mobile_spacing": 20
+          }
+        },
+        "button_XhAJn7": {
+          "type": "button",
+          "settings": {
+            "text": "get daily affirmations",
+            "url": "https://app.yoursayla.com",
+            "open_in_new_tab": true,
+            "style": "solid",
+            "background": "#c6aa77",
+            "text_color": "#231f20"
+          }
+        },
+        "button_qRHeqE": {
+          "type": "button",
+          "settings": {
+            "text": "take free check-in",
+            "url": "https://app.yoursayla.com/assessmentlanding",
+            "open_in_new_tab": false,
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "subheading_VgaTL8": {
+          "type": "subheading",
+          "settings": {
+            "text": "Free. Private. Takes 60-sec"
+          }
+        },
+        "spacer_yCy8mY": {
+          "type": "spacer",
+          "settings": {
+            "desktop_spacing": 40,
+            "mobile_spacing": 20
+          }
+        },
+        "richtext_6Vh9eF": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><em>Watch the 20-second demo.</em></p>"
+          }
+        },
+        "liquid_xKREpD": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"klaviyo-form-YpsANt\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_cdHx74",
+        "heading_QEJQCp",
+        "richtext_9F7ezB",
+        "spacer_nTjgMr",
+        "button_XhAJn7",
+        "button_qRHeqE",
+        "subheading_VgaTL8",
+        "spacer_yCy8mY",
+        "richtext_6Vh9eF",
+        "liquid_xKREpD"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "scrolling_content_YWiXcp": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_PhV7XB": {
+          "type": "text",
+          "settings": {
+            "text": "affirmations",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Black.svg",
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "text_L7jaUd": {
+          "type": "text",
+          "settings": {
+            "text": "daily",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Black.svg",
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "text_DfCBcR": {
+          "type": "text",
+          "settings": {
+            "text": "Truth",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Black.svg",
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_PhV7XB",
+        "text_L7jaUd",
+        "text_DfCBcR"
+      ],
+      "disabled": true,
+      "name": "t:sections.scrolling_content.name",
+      "settings": {
+        "color_scheme": "",
+        "scrolling_speed": 0.3,
+        "scroll_direction": "start-to-end",
+        "section_rotation": 0,
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 10,
+        "text_font_size_desktop": 5,
+        "section_vertical_spacing_mobile": 24,
+        "section_vertical_spacing_desktop": 60,
+        "item_horizontal_spacing_mobile": 40,
+        "item_horizontal_spacing_desktop": 80
+      }
+    },
+    "video_gzngJA": {
+      "type": "video",
+      "name": "t:sections.video.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "lg",
+        "mobile_video_size": "auto",
+        "video": "shopify://files/videos/SayLa App Promo Video (desktop).mp4",
+        "mobile_video": "shopify://files/videos/SayLa App Promo Video (mobile).mp4",
+        "external_video_url": ""
+      }
+    },
+    "text_with_icons_Agxymj": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_4aDcir": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Pearl.svg",
+            "title": "Daily Delivery",
+            "heading_tag": "h5",
+            "content": "<p>One affirmation sent every day (SMS, email, or both).</p>"
+          }
+        },
+        "item_4KdzqY": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Pearl.svg",
+            "title": "Personalized Themes",
+            "heading_tag": "h5",
+            "content": "<p>Take the 60-sec check-in to find your Truth Theme.</p>"
+          }
+        },
+        "item_HN3kHx": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Pearl.svg",
+            "title": "Built for Busy Lives",
+            "heading_tag": "h5",
+            "content": "<p>Quick truth prompts that fit naturally into your day.</p>"
+          }
+        },
+        "item_EfAQgN": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Pearl.svg",
+            "title": "Rooted in Presence",
+            "heading_tag": "h5",
+            "content": "<p>Simple cues that help you pause and return to center.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_4aDcir",
+        "item_4KdzqY",
+        "item_HN3kHx",
+        "item_EfAQgN"
+      ],
+      "custom_css": [
+        ".section-spacing {padding-block-start: 100px; padding-block-end: 150px;}"
+      ],
+      "name": "t:sections.text_with_icons.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "subheading": "",
+        "title": "What You Get",
+        "content": "<p>SayLa’s Daily Affirmation App Works</p>",
+        "heading_tag": "h2",
+        "text_alignment": "center",
+        "items_per_row_desktop": 2,
+        "stack_on_mobile": true,
+        "separator_style": "horizontal",
+        "icon_position": "inline",
+        "icon_width": 48,
+        "mobile_icon_width": 44,
+        "item_text_alignment": "left"
+      }
+    },
+    "multi_column_H6Pztn": {
+      "type": "multi-column",
+      "blocks": {
+        "multi_column_column_kXmTrb": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "center"
+          },
+          "blocks": {
+            "image_JWMzH7": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/1_494a409a-f86d-4456-b780-22c31435b4e9.png",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            },
+            "heading_bhe7gE": {
+              "type": "heading",
+              "settings": {
+                "text": "1. TAKE THE FREE CHECK-IN",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_LnRTCg": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Get your Truth Theme in 60-seconds.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_JWMzH7",
+            "heading_bhe7gE",
+            "rich_text_LnRTCg"
+          ]
+        },
+        "multi_column_column_ckDhct": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "center"
+          },
+          "blocks": {
+            "image_ymq37r": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/2_a7819344-50d7-42dd-b8d6-048a974959d0.png",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            },
+            "heading_QXP87R": {
+              "type": "heading",
+              "settings": {
+                "text": "2. get your daily affirmation",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_LL7qcF": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Text, Email, or on the App.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_ymq37r",
+            "heading_QXP87R",
+            "rich_text_LL7qcF"
+          ]
+        },
+        "multi_column_column_iY7BDY": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "center"
+          },
+          "blocks": {
+            "image_LWTzcz": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/3_bc96dc7f-c3d3-4cce-ba18-ac6b47a64459.png",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            },
+            "heading_MWRWNQ": {
+              "type": "heading",
+              "settings": {
+                "text": "3. Speak & Reset",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_pyFkJP": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Say it out loud. Hear your voice.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_LWTzcz",
+            "heading_MWRWNQ",
+            "rich_text_pyFkJP"
+          ]
+        },
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "The Sayla Ritual",
+            "title": "in Three Easy Steps",
+            "content": "<p>How the Daily Affirmation App Fits Your Day</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "center",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "multi_column_column_kXmTrb",
+        "multi_column_column_ckDhct",
+        "multi_column_column_iY7BDY"
+      ],
+      "custom_css": [
+        ".section-spacing {padding-block-start: 100px; padding-block-end: 100px;}"
+      ],
+      "name": "t:sections.multi_column.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "show_internal_borders": false,
+        "add_horizontal_spacing": true,
+        "add_top_spacing": true,
+        "add_bottom_spacing": true,
+        "items_per_row": 3,
+        "stack_on_mobile": true,
+        "stack_on_desktop": true,
+        "column_spacing": "md",
+        "row_spacing": "md"
+      }
+    },
+    "text_with_media_WjWYYb": {
+      "type": "text-with-media",
+      "blocks": {
+        "richtext_UJJtJd": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h2>Why I Built This Daily Affirmation App</h2><p>In a season when my mind wouldn’t slow down, I needed something simple that pulled me back to what’s true. SayLa became that daily reset.<br/><br/> — Meredith, Founder of SayLa</p>",
+            "position": "middle_center"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_UJJtJd"
+      ],
+      "custom_css": [
+        ".prose {background-color: #eee8e3; border-radius: 30px; padding-block: 40px;}",
+        "h2 {font-family: Roboto; font-size: 30px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "content_position": "end",
+        "content_percentage_width": 55,
+        "content_image_background": "shopify://shop_images/SayLA_Gold_Background_2600x1400_cbcc03dc-682a-4ef7-a6db-15ef6e9bc0c4.png",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "add_media_spacing": true,
+        "autoplay_video": false,
+        "primary_image": "shopify://shop_images/SayLa_Lifestyle_Meredith.png",
+        "secondary_media_width": 40,
+        "secondary_media_mobile_width": 65,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
+    },
+    "rich_text_AwMLpG": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_QqeBCM": {
+          "type": "subheading",
+          "settings": {
+            "text": "Now Live: Beta Access"
+          }
+        },
+        "heading_dUiF4Y": {
+          "type": "heading",
+          "settings": {
+            "text": "YOUR BETA ACCESS AWAITS",
+            "heading_tag": "h2",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_cQRdba": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Help shape the future of our daily affirmation app in this beta release.</p>"
+          }
+        },
+        "liquid_xxcFe3": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"klaviyo-form-YpsANt\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QqeBCM",
+        "heading_dUiF4Y",
+        "richtext_cQRdba",
+        "liquid_xxcFe3"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-spacing {padding-block-start: 100px; padding-block-end: 150px;}"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "content_width": "sm",
+        "text_alignment": "center"
+      }
+    },
+    "faq_HicpLy": {
+      "type": "faq",
+      "blocks": {
+        "question_f3V6KW": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What is the SayLa Affirmations App?</strong>",
+            "answer": "<p>SayLa is a web-based<strong> affirmations app</strong> that delivers daily affirmations by text (SMS), email, or both—and lets you access and personalize affirmations inside the app anytime.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_WaJ9GX": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Do I need to download anything?</strong>",
+            "answer": "<p>No. SayLa is a web app, so there’s no download required.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_UxLXar": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Is the app free?</strong>",
+            "answer": "<p>SayLa’s daily affirmation experience is 100% free. (We’ll share details on premium features down the road—like advanced customization and journal entries.)</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_78TCFb": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What is the Free Check-In?</strong>",
+            "answer": "<p>The Free 60-second Check-In helps you find your Truth Theme (what you need most right now) and gives you a clear next step.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_RzcqUi": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Do I need to buy a lip balm to use SayLa?</strong>",
+            "answer": "<p>No. You can use the app and receive daily affirmations without purchasing. The balm is an optional way to anchor the habit.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_9fjcNn": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Can I unsubscribe anytime?</strong>",
+            "answer": "<p>Yes—email unsubscribe is available anytime, and SMS opt-out is available as well.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        }
+      },
+      "block_order": [
+        "question_f3V6KW",
+        "question_WaJ9GX",
+        "question_UxLXar",
+        "question_78TCFb",
+        "question_RzcqUi",
+        "question_9fjcNn"
+      ],
+      "name": "t:sections.faq.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "layout": "stacked",
+        "accordion_style": "border",
+        "question_style": "text",
+        "subheading": "",
+        "title": "Frequently asked questions",
+        "title_tag": "h3",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "solid"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "animated_stickers_wKPi3G",
+    "rich_text_KTHEpE",
+    "scrolling_content_YWiXcp",
+    "video_gzngJA",
+    "text_with_icons_Agxymj",
+    "multi_column_H6Pztn",
+    "text_with_media_WjWYYb",
+    "rich_text_AwMLpG",
+    "faq_HicpLy"
+  ]
+}

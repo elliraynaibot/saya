@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('https://cdn.shopify.com/s/files/1/0657/6304/9633/files/BricolageGrotesque-VariableFont_opsz_wdth_wght.woff2?v=1776195247') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Urbanist';
+  src: url('https://cdn.shopify.com/s/files/1/0657/6304/9633/files/Urbanist-VariableFont_wght.woff2?v=1776195320') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Urbanist';
+  src: url('https://cdn.shopify.com/s/files/1/0657/6304/9633/files/Urbanist-Italic-VariableFont_wght.woff2?v=1776195247') format('woff2');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'Grande';
+    src: url('https://cdn.shopify.com/s/files/1/0657/6304/9633/files/Grande-Regular.woff2?v=1753534866') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0657/6304/9633/files/Grande-Regular.woff?v=1753534866') format('woff');
+        url('https://cdn.shopify.com/s/files/1/0657/6304/9633/files/Grande-Regular.otf?v=1753534851') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://cdn.shopify.com/s/files/1/0657/6304/9633/files/Roboto-Medium.woff2?v=1753535692') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0657/6304/9633/files/Roboto-Medium.woff?v=1753535692') format('woff');
+        url('https://cdn.shopify.com/s/files/1/0657/6304/9633/files/Roboto-Medium.ttf?v=1753535643') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+:root {
+    --heading-font-family: "Grande", sans-serif !important;
+    --heading-font-style: normal;
+    --heading-font-weight: 400;
+    --heading-letter-spacing: 0.05em !important;
+    --heading-text-transform: uppercase;
+    --subheading-letter-spacing: 0.2em !important;
+    --text-letter-spacing: 0.05em !important;
+    --button-font: "Roboto", sans-serif !important;
+    --button-text-transform: uppercase;
+    --button-letter-spacing: 0.2em;
+    --button-outline-font: "Roboto", sans-serif !important;
+    --header-nav-icon-gap: 26px;
+}
+
+/* Main navigation font size */
+.block {
+  font-size: 18px;
+}
+/* Gap between main navigation menu links */
+.header__primary-nav {
+  column-gap: 50px;
+}
+/* Font size of sub-menu under Shop Balms */
+.link-faded-reverse {
+  font-size: 20px;

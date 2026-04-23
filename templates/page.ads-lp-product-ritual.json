@@ -1,0 +1,650 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "content_width": "md"
+      }
+    },
+    "text_with_media_iLD3fE": {
+      "type": "text-with-media",
+      "blocks": {
+        "subheading_w89imC": {
+          "type": "subheading",
+          "settings": {
+            "text": "clean balm. true words.",
+            "position": "top_left"
+          }
+        },
+        "heading_XnMHGf": {
+          "type": "heading",
+          "settings": {
+            "text": "organic lip balm + meaning",
+            "heading_tag": "h2",
+            "position": "top_left",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "button_NEnKpz": {
+          "type": "button",
+          "settings": {
+            "text": "Shop the Truth Trio",
+            "url": "shopify://products/truth-trio-lip-balm-gift-set",
+            "position": "bottom_left",
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_w89imC",
+        "heading_XnMHGf",
+        "button_NEnKpz"
+      ],
+      "name": "t:sections.text_with_media.name",
+      "settings": {
+        "color_scheme": "",
+        "content_position": "start",
+        "content_percentage_width": 50,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20,
+        "add_media_spacing": false,
+        "autoplay_video": true,
+        "primary_image": "shopify://shop_images/2_a7819344-50d7-42dd-b8d6-048a974959d0.png",
+        "secondary_media_width": 60,
+        "secondary_media_mobile_width": 60,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
+    },
+    "text_with_icons_d9cPpK": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_8XWTyc": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "title": "<strong>Certified Organic</strong>",
+            "heading_tag": "h5",
+            "content": "<p>Clean ingredients, no unnecessary extras.<br/></p><p></p>"
+          }
+        },
+        "item_JGeQph": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "title": "<strong>A RITUAL THAT STICKS</strong>",
+            "heading_tag": "h5",
+            "content": "<p>You reach for lip balm everyday. SayLa turns that into a moment to slow down and speak truth. </p>"
+          }
+        },
+        "item_WBmUrG": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "title": "<strong>QR + App Prompts</strong>",
+            "heading_tag": "h5",
+            "content": "<p>Scan for a guided affirmation that matches your theme.</p>"
+          }
+        },
+        "item_L47n9j": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "title": "<strong>Made in USA & Cruelty-Free</strong>",
+            "heading_tag": "h5",
+            "content": "<p>Made with care, never tested on animals.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_8XWTyc",
+        "item_JGeQph",
+        "item_WBmUrG",
+        "item_L47n9j"
+      ],
+      "name": "t:sections.text_with_icons.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "subheading": "",
+        "title": "Why it’s different",
+        "content": "<ul><li><strong>Certified Organic</strong><br/>Clean ingredients, no unnecessary extras.<br/></li></ul><p></p><ul><li><strong>Truth on the Label</strong><br/>A word to remind you of truth and bring you back to center. Phil. 4:8<br/></li></ul><p></p><ul><li><strong>Prompts to Speak Words of Life</strong><br/>Receive daily affirmations (rooted in scripture) that match your lip balm theme.</li></ul>",
+        "heading_tag": "h3",
+        "text_alignment": "left",
+        "items_per_row_desktop": 2,
+        "stack_on_mobile": false,
+        "separator_style": "horizontal",
+        "icon_position": "stacked",
+        "icon_width": 36,
+        "mobile_icon_width": 32,
+        "item_text_alignment": "left"
+      }
+    },
+    "multi_column_GXWyPX": {
+      "type": "multi-column",
+      "blocks": {
+        "multi_column_column_FgxaTE": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "left"
+          },
+          "blocks": {
+            "image_3R9xVW": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/SayLa_Lifestyle_Office_Balm_1080_x_1080_px.png",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            },
+            "heading_qnMGDe": {
+              "type": "heading",
+              "settings": {
+                "text": "swipe",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_Ri8DL6": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Nourish lips with certified organic balm.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_3R9xVW",
+            "heading_qnMGDe",
+            "rich_text_Ri8DL6"
+          ]
+        },
+        "multi_column_column_ExpbT8": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "left"
+          },
+          "blocks": {
+            "image_Lwfqnd": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/a-portrait-photograph-of-a-young-woman-s_Dssdg8wKQlWzlK8zuhQf3g_syMQlvMcRoCbLZSPQAqtaw.png",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            },
+            "heading_p4Xhnc": {
+              "type": "heading",
+              "settings": {
+                "text": "Pause",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_eQYV69": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Take a moment to be reminded of what's true. </p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_Lwfqnd",
+            "heading_p4Xhnc",
+            "rich_text_eQYV69"
+          ]
+        },
+        "multi_column_column_CqkYxG": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "left"
+          },
+          "blocks": {
+            "image_kGCQmi": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/a-soft-portrait-photograph-of-a-woman-st_U_7eU89zTFuGO9UwFuY4Ng_bKbqhbJjRKqJ6qSbjs7uPg.png",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            },
+            "heading_cXL9YN": {
+              "type": "heading",
+              "settings": {
+                "text": "speak",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_xdP8FW": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Scan QR code on balm for a personalized affirmation.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_kGCQmi",
+            "heading_cXL9YN",
+            "rich_text_xdP8FW"
+          ]
+        },
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "",
+            "title": "A 10-second reset—built into your day",
+            "content": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "multi_column_column_FgxaTE",
+        "multi_column_column_ExpbT8",
+        "multi_column_column_CqkYxG"
+      ],
+      "name": "t:sections.multi_column.name",
+      "settings": {
+        "color_scheme": "",
+        "show_internal_borders": false,
+        "add_horizontal_spacing": true,
+        "add_top_spacing": true,
+        "add_bottom_spacing": true,
+        "items_per_row": 3,
+        "stack_on_mobile": false,
+        "stack_on_desktop": true,
+        "column_spacing": "md",
+        "row_spacing": "md"
+      }
+    },
+    "rich_text_EqB7qC": {
+      "type": "rich-text",
+      "blocks": {
+        "button_NNfTbx": {
+          "type": "button",
+          "settings": {
+            "text": "Shop the Truth Trio",
+            "url": "shopify://products/truth-trio-lip-balm-gift-set",
+            "open_in_new_tab": false,
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_NNfTbx"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "featured_product_list_fR6xxw": {
+      "type": "featured-product-list",
+      "name": "t:sections.featured_product_list.name",
+      "settings": {
+        "color_scheme": "",
+        "product_list": [
+          "truth-trio-lip-balm-gift-set"
+        ],
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "intro_color_scheme": "",
+        "intro_image_overlay": "#00000021",
+        "intro_title": "Start with the Truth Trio",
+        "intro_title_tag": "h5",
+        "intro_content": "<p>Three balms, thoughtfully paired for meaning and momentum—perfect to gift or keep.</p>",
+        "intro_button_text": "",
+        "intro_button_link": "shopify://products/truth-trio-lip-balm-gift-set",
+        "intro_button_style": "outline"
+      }
+    },
+    "17703141961e6ac459": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_cards_carousel_CMdC38": {
+          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "all",
+            "products": [],
+            "star_rating": "all",
+            "show_review_media": true,
+            "display_order": "media_first",
+            "no_image_fallback": "review_text_only",
+            "max_reviews": 20,
+            "review_length": "medium",
+            "text_size": "medium",
+            "image_ratio": "1",
+            "reviews_shown": 4,
+            "show_reviewer_name": true,
+            "show_product_name": true,
+            "hide_arrows_mobile": true,
+            "arrows_position": "sides",
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "header_text_color": "#000000",
+            "text_color": "#000000",
+            "card_color": "#f9f9f9",
+            "stars_color": "",
+            "arrows_color": "#000000",
+            "transition_speed": 5,
+            "header_text": "Customers are saying",
+            "show_average_rating": true
+          }
+        },
+        "section-header": {
+          "type": "_section-header",
+          "disabled": true,
+          "static": true,
+          "settings": {
+            "subheading": "",
+            "title": "Header",
+            "content": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_cards_carousel_CMdC38"
+      ],
+      "settings": {
+        "color_scheme": "scheme-5",
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true
+      }
+    },
+    "products_with_image_iNHPc4": {
+      "type": "products-with-image",
+      "blocks": {
+        "heading_fp4wpW": {
+          "type": "heading",
+          "settings": {
+            "text": "Prefer one?",
+            "heading_tag": "h2",
+            "position": "middle_center",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_MJYnEm": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Choose your theme. </p>",
+            "position": "middle_center"
+          }
+        },
+        "subheading_GPLY43": {
+          "type": "subheading",
+          "settings": {
+            "text": "Pick the word for you",
+            "position": "middle_center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fp4wpW",
+        "richtext_MJYnEm",
+        "subheading_GPLY43"
+      ],
+      "name": "t:sections.products_with_image.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "products": [
+          "faith-organic-lip-balm-vanilla-bliss",
+          "grateful-organic-lip-balm-blossom-berry",
+          "loved-organic-lip-balm-blossom-berry",
+          "peace-organic-lip-balm-pure-mint",
+          "resilient-organic-lip-balm-pure-mint",
+          "worthy-organic-lip-balm-vanilla-bliss"
+        ],
+        "desktop_product_list_position": "start",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "desktop_product_layout": "grid",
+        "mobile_product_layout": "grid",
+        "mobile_products_per_row": "2"
+      }
+    },
+    "rich_text_eHPpGz": {
+      "type": "rich-text",
+      "blocks": {
+        "button_g7qGnG": {
+          "type": "button",
+          "settings": {
+            "text": "shop single balms",
+            "url": "shopify://collections/lip-balms",
+            "open_in_new_tab": false,
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_g7qGnG"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "image_with_text_overlay_BTbGzr": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_wfxeUe": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          },
+          "blocks": {}
+        },
+        "heading_aAA7Qr": {
+          "type": "heading",
+          "settings": {
+            "text": "Truth made tangible.",
+            "heading_size": "h2",
+            "html_tag": "p",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          },
+          "blocks": {}
+        },
+        "rich_text_bMCXWa": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<p>Scan the QR on your balm to receive a guided affirmation that matches your theme—right when you need it.</p>",
+            "content_width": "sm"
+          },
+          "blocks": {}
+        },
+        "button_hgAdfE": {
+          "type": "button",
+          "name": "t:blocks.button.name",
+          "settings": {
+            "text": "See the sayla app",
+            "url": "https://app.yoursayla.com/",
+            "open_in_new_tab": false,
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "subheading_wfxeUe",
+        "heading_aAA7Qr",
+        "rich_text_bMCXWa",
+        "button_hgAdfE"
+      ],
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/phone_banner_for_lp.png",
+        "mobile_image": "shopify://shop_images/phone_app_banner_lp.png",
+        "overlay_color": "#f0e9dc",
+        "overlay_opacity": 60,
+        "enable_sticky_content": false,
+        "content_width": "md",
+        "desktop_text_position": "sm:place-self-center",
+        "mobile_text_position": "place-self-center"
+      }
+    },
+    "faq_F9nkig": {
+      "type": "faq",
+      "blocks": {
+        "question_FcypWL": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Is this lip balm actually organic?</strong>",
+            "answer": "<p>Yes—SayLa is certified USDA organic. See our full ingredients list <a href=\"/pages/sayla-ingredients-sensitivities\" target=\"_blank\" title=\"SayLa Ingredients & Sensitivities\">HERE</a>. </p>",
+            "icon": "picto-leaf",
+            "custom_icon": "shopify://shop_images/SayLA_USDA_Organic.png",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_E36Cxq": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How do the affirmations work?</strong>",
+            "answer": "<p>Each balm carries a word on the label. Scan the QR to open the SayLa app for a guided affirmation prompt tied to that word.</p>",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLA_Daily_Affirmations.png",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_zy7NCp": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Do I need the app?</strong>",
+            "answer": "<p>No. The balm stands on its own. The app simply deepens the ritual with guided prompts.</p>",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Black.svg",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_4fD9V7": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How much is shipping?</strong>",
+            "answer": "<p>Free U.S. shipping over $40. Orders under $40 ship for $6.50.</p>",
+            "icon": "picto-truck",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        }
+      },
+      "block_order": [
+        "question_FcypWL",
+        "question_E36Cxq",
+        "question_zy7NCp",
+        "question_4fD9V7"
+      ],
+      "name": "t:sections.faq.name",
+      "settings": {
+        "color_scheme": "",
+        "layout": "stacked",
+        "accordion_style": "border",
+        "question_style": "text",
+        "subheading": "",
+        "title": "Questions? Answers.",
+        "title_tag": "h3",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "solid"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_with_media_iLD3fE",
+    "text_with_icons_d9cPpK",
+    "multi_column_GXWyPX",
+    "rich_text_EqB7qC",
+    "featured_product_list_fR6xxw",
+    "17703141961e6ac459",
+    "products_with_image_iNHPc4",
+    "rich_text_eHPpGz",
+    "image_with_text_overlay_BTbGzr",
+    "faq_F9nkig"
+  ]
+}

@@ -1,0 +1,188 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message-2": {
+          "type": "message",
+          "settings": {
+            "text": "Free U.S. shipping over $40"
+          }
+        }
+      },
+      "block_order": [
+        "message-2"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "enable_sticky": false,
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_Tyz8UN": {
+          "type": "mega_menu",
+          "disabled": true,
+          "settings": {
+            "menu_item": "Shop Balms",
+            "mega_menu_justify_content": "justify-center",
+            "stretch_promo_blocks": true,
+            "promo_column_gap": "4px",
+            "promo_text_alignment": "center",
+            "promo_heading_tag": "subheading",
+            "promo_text_color": "#ffffff",
+            "promo_1_product": "",
+            "promo_1_image": "shopify://shop_images/SayLA_homepage_mobile.webp",
+            "promo_1_heading": "Organic Lip Balms",
+            "promo_1_text": "",
+            "promo_1_link": "shopify://collections/lip-balms",
+            "promo_2_product": "",
+            "promo_2_image": "shopify://shop_images/Sayla_Balm_App_2_Women.webp",
+            "promo_2_heading": "Gift Sets",
+            "promo_2_text": "",
+            "promo_2_link": "shopify://collections/gift-sets",
+            "promo_3_product": "",
+            "promo_3_heading": "",
+            "promo_3_text": "",
+            "promo_3_link": "",
+            "promo_4_product": "",
+            "promo_4_heading": "",
+            "promo_4_text": "",
+            "promo_4_link": "",
+            "promo_5_product": "",
+            "promo_5_heading": "",
+            "promo_5_text": "",
+            "promo_5_link": "",
+            "promo_6_product": "",
+            "promo_6_heading": "",
+            "promo_6_text": "",
+            "promo_6_link": ""
+          }
+        },
+        "mega_menu_wVHLNk": {
+          "type": "mega_menu",
+          "disabled": true,
+          "settings": {
+            "menu_item": "Shop Balms",
+            "mega_menu_justify_content": "justify-between",
+            "stretch_promo_blocks": false,
+            "promo_column_gap": "4px",
+            "promo_text_alignment": "center",
+            "promo_heading_tag": "subheading",
+            "promo_text_color": "#ffffff",
+            "promo_1_product": "grateful-organic-lip-balm-blossom-berry",
+            "promo_1_heading": "",
+            "promo_1_text": "",
+            "promo_1_link": "",
+            "promo_2_product": "peace-organic-lip-balm-pure-mint",
+            "promo_2_heading": "",
+            "promo_2_text": "",
+            "promo_2_link": "",
+            "promo_3_product": "worthy-organic-lip-balm-vanilla-bliss",
+            "promo_3_heading": "",
+            "promo_3_text": "",
+            "promo_3_link": "",
+            "promo_4_product": "loved-organic-lip-balm-blossom-berry",
+            "promo_4_heading": "",
+            "promo_4_text": "",
+            "promo_4_link": "",
+            "promo_5_product": "resilient-organic-lip-balm-pure-mint",
+            "promo_5_heading": "",
+            "promo_5_text": "",
+            "promo_5_link": "",
+            "promo_6_product": "",
+            "promo_6_heading": "",
+            "promo_6_text": "",
+            "promo_6_link": ""
+          }
+        },
+        "mega_menu_RVrNWK": {
+          "type": "mega_menu",
+          "disabled": true,
+          "settings": {
+            "menu_item": "The Power of Words",
+            "mega_menu_justify_content": "justify-center",
+            "stretch_promo_blocks": false,
+            "promo_column_gap": "12px",
+            "promo_text_alignment": "center",
+            "promo_heading_tag": "subheading",
+            "promo_text_color": "#ffffff",
+            "promo_1_product": "",
+            "promo_1_image": "shopify://shop_images/SayLa_Blog_Images.png",
+            "promo_1_heading": "Daily Affirmations",
+            "promo_1_text": "Discover calming, confidence-building daily affirmations for anxiety, stress, and self-worth.",
+            "promo_1_link": "https://yoursayla.com/blogs/the-power-of-words/tagged/daily-affirmations",
+            "promo_2_product": "",
+            "promo_2_image": "shopify://shop_images/7.png",
+            "promo_2_heading": "Mindful Wellness",
+            "promo_2_text": "Explore grounding routines and emotional wellness tools that restore clarity, peace, and presence.",
+            "promo_2_link": "https://yoursayla.com/blogs/the-power-of-words/tagged/mindful-wellness",
+            "promo_3_product": "",
+            "promo_3_image": "shopify://shop_images/8.png",
+            "promo_3_heading": "Soulful Living & Gifting",
+            "promo_3_text": "Discover joyful lifestyle content and thoughtful gift ideas that uplift, inspire, and help you celebrate what matters.",
+            "promo_3_link": "https://yoursayla.com/blogs/the-power-of-words/tagged/soulful-living-gifting",
+            "promo_4_product": "",
+            "promo_4_heading": "",
+            "promo_4_text": "",
+            "promo_4_link": "",
+            "promo_5_product": "",
+            "promo_5_heading": "",
+            "promo_5_text": "",
+            "promo_5_link": "",
+            "promo_6_product": "",
+            "promo_6_heading": "",
+            "promo_6_text": "",
+            "promo_6_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_Tyz8UN",
+        "mega_menu_wVHLNk",
+        "mega_menu_RVrNWK"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "schema-1",
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "mobile_layout": "logo_center_navigation_split",
+        "desktop_layout": "logo_left_navigation_center",
+        "logo": "shopify://shop_images/SayLaPrimaryLogo-Gold_68c7c5c3-e94a-4599-b02c-5183a101c629.png",
+        "logo_max_width": 150,
+        "logo_mobile_max_width": 115,
+        "menu": "main-menu",
+        "drawer_menu": "",
+        "secondary_menu": "",
+        "desktop_dropdown_menu_style": "below",
+        "menu_open_trigger": "hover",
+        "desktop_icon_size": 26,
+        "drawer_show_nested_menu_indicator": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "show_locale_selector": false,
+        "transparent_header_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

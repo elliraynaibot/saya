@@ -1,0 +1,651 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_tWTLdz": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_image_slide_bKmEJW": {
+          "type": "_slideshow-image-slide",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/SayLaLogotype-Pearl.svg",
+            "slide_link": "",
+            "content_max_width": 500,
+            "mobile_content_position": "place-self-center",
+            "desktop_content_position": "sm:place-self-center",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 35
+          },
+          "blocks": {
+            "heading_yJxHBK": {
+              "type": "heading",
+              "disabled": true,
+              "settings": {
+                "text": "Slide 1",
+                "heading_size": "h1",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_yJxHBK"
+          ]
+        },
+        "slideshow_image_slide_dKjeyq": {
+          "type": "_slideshow-image-slide",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-center",
+            "desktop_content_position": "sm:place-self-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          },
+          "blocks": {
+            "heading_6LNQJK": {
+              "type": "heading",
+              "settings": {
+                "text": "Slide 2",
+                "heading_size": "h1",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_6LNQJK"
+          ]
+        },
+        "slideshow-controls": {
+          "type": "_slideshow-controls",
+          "static": true,
+          "settings": {
+            "controls_style": "line",
+            "controls_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "slideshow_image_slide_bKmEJW",
+        "slideshow_image_slide_dKjeyq"
+      ],
+      "name": "t:sections.slideshow.name",
+      "settings": {
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "transition_type": "curtain",
+        "autoplay": true,
+        "pause_auto_rotate_on_hover": false,
+        "cycle_speed": 6,
+        "background": "#000000"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": false,
+        "content_width": "md"
+      }
+    },
+    "animated_stickers_wKPi3G": {
+      "type": "animated-stickers",
+      "name": "💫 Animated Sticker",
+      "settings": {
+        "image": "shopify://shop_images/SayLa-Flower_1_4x_df972d89-3a53-4213-9b5d-2e2a734ce59b.png",
+        "animation": "float-scroll",
+        "animationSpeed": 10,
+        "sticker_align_desktop": "left",
+        "sticker_top_desktop": 135,
+        "sticker_side_desktop": 6,
+        "sticker_width_desktop": 200,
+        "mobile_hide": true,
+        "sticker_align_mobile": "center",
+        "sticker_top_mobile": -50,
+        "sticker_width_mobile": 100,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "rich_text_KTHEpE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QEJQCp": {
+          "type": "heading",
+          "settings": {
+            "text": "Product Testers - Preview Page",
+            "heading_tag": "h2",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_9F7ezB": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><em>This page is just for you—our early testers. Please don’t share this link just yet</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QEJQCp",
+        "richtext_9F7ezB"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_jpgyiM": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_fLLkTH": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "desktop_spacing": 0,
+            "mobile_spacing": 50
+          }
+        },
+        "icon_niWUwR": {
+          "type": "icon",
+          "settings": {
+            "icon": "picto-heart",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Black.svg",
+            "icon_width": 76,
+            "mobile_icon_width": 58,
+            "icon_stroke_width": 1.5
+          }
+        },
+        "column_delimiter_TbQftX": {
+          "type": "column_delimiter",
+          "disabled": true,
+          "settings": {}
+        },
+        "liquid_7xnMtK": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<video width=\"320\" height=\"240\" autoplay>\n  <source src=\"https://cdn.shopify.com/videos/c/o/v/434699a654c142c79b0d218ecec61931.mp4\" type=\"video/mp4\">\nYour browser does not support the video tag.\n</video>\n\n<style>\nvideo {\n  display: block;\n  margin: 0 auto; /* Centers horizontally */\n}\n</style>"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_fLLkTH",
+        "icon_niWUwR",
+        "column_delimiter_TbQftX",
+        "liquid_7xnMtK"
+      ],
+      "custom_css": [],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "content_width": "full",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_TUpKwY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gVzbza": {
+          "type": "heading",
+          "settings": {
+            "text": "see the app in action",
+            "heading_tag": "h3",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_gVzbza"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "video_gzngJA": {
+      "type": "video",
+      "name": "t:sections.video.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "lg",
+        "mobile_video_size": "auto",
+        "video": "shopify://files/videos/SayLa App Promo Video pre-launch (desktop) (1).mp4",
+        "mobile_video": "shopify://files/videos/SayLa App Promo Video pre-launch.mp4",
+        "external_video_url": ""
+      }
+    },
+    "text_with_icons_Agxymj": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_4aDcir": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Pearl.svg",
+            "title": "Truth on Repeat",
+            "heading_tag": "h5",
+            "content": "<p>Our daily affirmation app delivers personalized prompts you’ll actually use.</p>"
+          }
+        },
+        "item_4KdzqY": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Pearl.svg",
+            "title": "Clean‑Beauty Meets Self‑Care",
+            "heading_tag": "h5",
+            "content": "<p>Our organic lip balm pairs seamlessly with your affirmation ritual.</p>"
+          }
+        },
+        "item_HN3kHx": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Pearl.svg",
+            "title": "Built for Busy Lives",
+            "heading_tag": "h5",
+            "content": "<p>Quick, meaningful reminders—anywhere, anytime.</p>"
+          }
+        },
+        "item_EfAQgN": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Pearl.svg",
+            "title": "Rooted in Presence",
+            "heading_tag": "h5",
+            "content": "<p>Turn an everyday habit into intentional self‑care.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_4aDcir",
+        "item_4KdzqY",
+        "item_HN3kHx",
+        "item_EfAQgN"
+      ],
+      "custom_css": [
+        ".section-spacing {padding-block-start: 100px; padding-block-end: 150px;}"
+      ],
+      "name": "t:sections.text_with_icons.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "subheading": "",
+        "title": "Why You'll Love Our Daily Affirmation App",
+        "content": "<p>SayLa’s Daily Affirmation App Works</p>",
+        "heading_tag": "h2",
+        "text_alignment": "center",
+        "items_per_row_desktop": 2,
+        "stack_on_mobile": true,
+        "separator_style": "horizontal",
+        "icon_position": "inline",
+        "icon_width": 48,
+        "mobile_icon_width": 44,
+        "item_text_alignment": "left"
+      }
+    },
+    "multi_column_H6Pztn": {
+      "type": "multi-column",
+      "blocks": {
+        "multi_column_column_kXmTrb": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "center"
+          },
+          "blocks": {
+            "image_JWMzH7": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/Lifestyle_Spa_Applying_Balm.webp",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            },
+            "heading_bhe7gE": {
+              "type": "heading",
+              "settings": {
+                "text": "1. Swipe Your Balm",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_LnRTCg": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Apply your organic lip balm.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_JWMzH7",
+            "heading_bhe7gE",
+            "rich_text_LnRTCg"
+          ]
+        },
+        "multi_column_column_ckDhct": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "center"
+          },
+          "blocks": {
+            "image_ymq37r": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/Sayla_Balm_App_2_Women.webp",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            },
+            "heading_QXP87R": {
+              "type": "heading",
+              "settings": {
+                "text": "2. Open the App",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_LL7qcF": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Receive your affirmation notification.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_ymq37r",
+            "heading_QXP87R",
+            "rich_text_LL7qcF"
+          ]
+        },
+        "multi_column_column_iY7BDY": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "center"
+          },
+          "blocks": {
+            "image_LWTzcz": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/SayLa_Lifestyle_applying_balm-app.webp",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            },
+            "heading_MWRWNQ": {
+              "type": "heading",
+              "settings": {
+                "text": "3. Speak & Reset",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_pyFkJP": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Say it, know it, be it.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_LWTzcz",
+            "heading_MWRWNQ",
+            "rich_text_pyFkJP"
+          ]
+        },
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "The Sayla Ritual",
+            "title": "in Three Easy Steps",
+            "content": "<p>How the Daily Affirmation App Fits Your Day</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "center",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "multi_column_column_kXmTrb",
+        "multi_column_column_ckDhct",
+        "multi_column_column_iY7BDY"
+      ],
+      "custom_css": [
+        ".section-spacing {padding-block-start: 100px; padding-block-end: 100px;}"
+      ],
+      "name": "t:sections.multi_column.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "show_internal_borders": false,
+        "add_horizontal_spacing": true,
+        "add_top_spacing": true,
+        "add_bottom_spacing": true,
+        "items_per_row": 3,
+        "stack_on_mobile": true,
+        "stack_on_desktop": true,
+        "column_spacing": "md",
+        "row_spacing": "md"
+      }
+    },
+    "text_with_media_WjWYYb": {
+      "type": "text-with-media",
+      "blocks": {
+        "richtext_UJJtJd": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h2>Why I Built This Daily Affirmation App</h2><p>In a season of noise and overwhelm, I longed for a pause—something simple, soulful, and rooted in truth. So I created SayLa, a daily affirmation app paired with clean‑beauty balm, to help women everywhere reset their day with purpose, one swipe at a time.<br/><br/> — Meredith, Founder of SayLa</p>",
+            "position": "middle_center"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_UJJtJd"
+      ],
+      "custom_css": [
+        ".prose {background-color: #eee8e3; border-radius: 30px; padding-block: 40px;}",
+        "h2 {font-family: Roboto; font-size: 30px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "content_position": "end",
+        "content_percentage_width": 55,
+        "content_image_background": "shopify://shop_images/SayLA_Gold_Background_2600x1400_cbcc03dc-682a-4ef7-a6db-15ef6e9bc0c4.png",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "add_media_spacing": false,
+        "autoplay_video": false,
+        "primary_image": "shopify://shop_images/About_SayLA_Founder_-_Meredith_1.webp",
+        "secondary_media_width": 40,
+        "secondary_media_mobile_width": 65,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
+    },
+    "rich_text_AwMLpG": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_QqeBCM": {
+          "type": "subheading",
+          "settings": {
+            "text": "Launching Fall 2025"
+          }
+        },
+        "heading_dUiF4Y": {
+          "type": "heading",
+          "settings": {
+            "text": "Your New Daily Affirmation App Awaits",
+            "heading_tag": "h2",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_cQRdba": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Join the Fall 2025 waitlist today and be among the first to experience a new self‑care ritual.</p>"
+          }
+        },
+        "liquid_xxcFe3": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"klaviyo-form-YpsANt\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QqeBCM",
+        "heading_dUiF4Y",
+        "richtext_cQRdba",
+        "liquid_xxcFe3"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-spacing {padding-block-start: 100px; padding-block-end: 150px;}"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "content_width": "sm",
+        "text_alignment": "center"
+      }
+    },
+    "faq_HicpLy": {
+      "type": "faq",
+      "blocks": {
+        "question_WaJ9GX": {
+          "type": "question",
+          "settings": {
+            "question": "What makes SayLa’s daily affirmation app different?",
+            "answer": "<p>Scan the QR code on your SayLa lip balm tube to unlock our app, which delivers short, powerful affirmations designed to be spoken out loud.</p><p>By combining a clean-beauty ritual with the proven impact of the spoken word, SayLa helps you not just read your truth but live it—bringing calm, confidence, and presence to every swipe.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_f3V6KW": {
+          "type": "question",
+          "settings": {
+            "question": "Do I have to own the balm to use the app?",
+            "answer": "<p>Not at all—you can join the waitlist for the app alone. But pairing the app with the balm transforms a daily swipe into a powerful ritual. Lip-softening meets soul-softening.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_UxLXar": {
+          "type": "question",
+          "settings": {
+            "question": "Is the app free?",
+            "answer": "<p>SayLa’s core daily affirmation experience is 100% free when you join the waitlist. (We’ll share details on premium features down the road—like advanced customization and themed packs.)</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        }
+      },
+      "block_order": [
+        "question_WaJ9GX",
+        "question_f3V6KW",
+        "question_UxLXar"
+      ],
+      "name": "t:sections.faq.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "layout": "stacked",
+        "accordion_style": "border",
+        "question_style": "text",
+        "subheading": "",
+        "title": "Frequently asked questions",
+        "title_tag": "h3",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "solid"
+      }
+    }
+  },
+  "order": [
+    "slideshow_tWTLdz",
+    "main",
+    "animated_stickers_wKPi3G",
+    "rich_text_KTHEpE",
+    "rich_text_jpgyiM",
+    "rich_text_TUpKwY",
+    "video_gzngJA",
+    "text_with_icons_Agxymj",
+    "multi_column_H6Pztn",
+    "text_with_media_WjWYYb",
+    "rich_text_AwMLpG",
+    "faq_HicpLy"
+  ]
+}

@@ -1,0 +1,36 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+PRODUCT REVIEW SUMMARY LINK
+----------------------------------------------------------------------------------------------------------------------
+
+This snippet renders a lightweight product review summary for above-the-fold use on product pages.
+
+********************************************
+Supported variables
+********************************************
+
+* product: the product from which review metafields are extracted
+{%- endcomment -%}
+
+{%- liquid
+  if product.metafields.reviews.rating.value != blank
+    assign rating_count = product.metafields.reviews.rating_count.value
+  else
+    assign hide_summary = true
+  endif
+-%}
+
+{%- unless hide_summary -%}
+  <a href="#product-reviews" class="h-stack gap-2 link-faded text-subdued" aria-label="Jump to product reviews">
+    {%- render 'product-rating', product: product, show_single_star: true -%}
+
+    <span class="subheading">
+      {{- rating_count -}}
+      {%- if rating_count == 1 -%}
+        review
+      {%- else -%}
+        reviews
+      {%- endif -%}
+    </span>
+  </a>
+{%- endunless -%}

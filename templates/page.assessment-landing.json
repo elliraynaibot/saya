@@ -1,0 +1,609 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "show_title": true,
+        "content_width": "md"
+      }
+    },
+    "image_with_text_overlay_DmnxdE": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_Udk43K": {
+          "type": "heading",
+          "settings": {
+            "text": "if your mind doesn't stop, start here.",
+            "heading_size": "h2",
+            "html_tag": "p",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          },
+          "blocks": {}
+        },
+        "rich_text_Umxy43": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<p>A free <strong>60-second</strong> check-in that shows what <strong>truth you need most</strong> right now + <strong>7-day</strong> email reset to help you stay rooted.</p>",
+            "content_width": "md"
+          },
+          "blocks": {}
+        },
+        "subheading_URG9kA": {
+          "type": "subheading",
+          "name": "t:blocks.subheading.name",
+          "settings": {
+            "text": "Free • Private • 60 seconds"
+          },
+          "blocks": {}
+        },
+        "button_E8BHWY": {
+          "type": "button",
+          "name": "t:blocks.button.name",
+          "settings": {
+            "text": "Start 60-Sec Check-In",
+            "url": "https://app.yoursayla.com/selfassessment",
+            "open_in_new_tab": true,
+            "style": "solid",
+            "background": "#d2ae6e",
+            "text_color": "#231f20"
+          },
+          "blocks": {}
+        },
+        "rich_text_TAqBQf": {
+          "type": "rich-text",
+          "name": "t:blocks.rich_text.name",
+          "settings": {
+            "text": "<p>See your Truth Theme instantly—get your 7-day reset by email.</p><p></p>",
+            "content_width": "sm"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_Udk43K",
+        "rich_text_Umxy43",
+        "subheading_URG9kA",
+        "button_E8BHWY",
+        "rich_text_TAqBQf"
+      ],
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/journal_TTF.png",
+        "overlay_color": "#f1efef",
+        "overlay_opacity": 50,
+        "enable_sticky_content": false,
+        "content_width": "md",
+        "desktop_text_position": "sm:place-self-center",
+        "mobile_text_position": "place-self-center"
+      }
+    },
+    "rich_text_jTmzrD": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_qifPQA": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_wxq9qB": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>feel more grounded</strong>",
+            "heading_tag": "h3",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_6WeRKJ": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>When your mind feels full, it’s hard to know what you need most. </p><p>This quick check-in gives you clarity—and a simple next step for the week ahead.</p>"
+          }
+        },
+        "spacer_TX7rFp": {
+          "type": "spacer",
+          "settings": {
+            "desktop_spacing": 40,
+            "mobile_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qifPQA",
+        "heading_wxq9qB",
+        "richtext_6WeRKJ",
+        "spacer_TX7rFp"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "scrolling_content_8rDQJc": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_TYHFdi": {
+          "type": "text",
+          "settings": {
+            "text": "check in",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Black.png",
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "text_HehFj8": {
+          "type": "text",
+          "settings": {
+            "text": "get clarity",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Black.png",
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "text_mGTbrQ": {
+          "type": "text",
+          "settings": {
+            "text": "reset your week",
+            "custom_icon": "shopify://shop_images/SayLaLogomark-Black.png",
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_TYHFdi",
+        "text_HehFj8",
+        "text_mGTbrQ"
+      ],
+      "name": "t:sections.scrolling_content.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "scrolling_speed": 0.1,
+        "scroll_direction": "start-to-end",
+        "section_rotation": 0,
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 4,
+        "text_font_size_desktop": 3,
+        "section_vertical_spacing_mobile": 22,
+        "section_vertical_spacing_desktop": 70,
+        "item_horizontal_spacing_mobile": 10,
+        "item_horizontal_spacing_desktop": 40
+      }
+    },
+    "multi_column_i3AzpQ": {
+      "type": "multi-column",
+      "blocks": {
+        "multi_column_column_LqmX3g": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "left"
+          },
+          "blocks": {
+            "image_d46GrA": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/Faith.png",
+                "max_width": 40,
+                "mobile_max_width": 40
+              },
+              "blocks": {}
+            },
+            "heading_3BmQxw": {
+              "type": "heading",
+              "settings": {
+                "text": "your result",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_At88ah": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>A personalized Truth Theme showing what you need most right now.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_d46GrA",
+            "heading_3BmQxw",
+            "rich_text_At88ah"
+          ]
+        },
+        "multi_column_column_jFt8FC": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "left"
+          },
+          "blocks": {
+            "image_K7rjFn": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/Gratitude.png",
+                "max_width": 40,
+                "mobile_max_width": 40
+              },
+              "blocks": {}
+            },
+            "heading_qKpWAb": {
+              "type": "heading",
+              "settings": {
+                "text": "clear insight",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_kFBczF": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>A short explanation of what your answers are pointing to.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_K7rjFn",
+            "heading_qKpWAb",
+            "rich_text_kFBczF"
+          ]
+        },
+        "multi_column_column_ETVaRM": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "left"
+          },
+          "blocks": {
+            "image_CPY7U4": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/Peace.png",
+                "max_width": 40,
+                "mobile_max_width": 40
+              },
+              "blocks": {}
+            },
+            "heading_mwyiGi": {
+              "type": "heading",
+              "settings": {
+                "text": "7-day reset",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_hPBbgz": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Starting tomorrow, you’ll receive a simple 7-day email reset—about 3 minutes a day.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_CPY7U4",
+            "heading_mwyiGi",
+            "rich_text_hPBbgz"
+          ]
+        },
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "",
+            "title": "<strong>what you'll receive:</strong>",
+            "content": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "multi_column_column_LqmX3g",
+        "multi_column_column_jFt8FC",
+        "multi_column_column_ETVaRM"
+      ],
+      "name": "t:sections.multi_column.name",
+      "settings": {
+        "color_scheme": "",
+        "show_internal_borders": false,
+        "add_horizontal_spacing": true,
+        "add_top_spacing": true,
+        "add_bottom_spacing": true,
+        "items_per_row": 3,
+        "stack_on_mobile": false,
+        "stack_on_desktop": true,
+        "column_spacing": "md",
+        "row_spacing": "md"
+      }
+    },
+    "rich_text_i34kgf": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_it8eQe": {
+          "type": "spacer",
+          "settings": {
+            "desktop_spacing": 40,
+            "mobile_spacing": 20
+          }
+        },
+        "button_QEbrgD": {
+          "type": "button",
+          "settings": {
+            "text": "Start 60-Sec Check-In",
+            "url": "https://app.yoursayla.com/selfassessment",
+            "open_in_new_tab": true,
+            "style": "solid",
+            "background": "",
+            "text_color": "#231f20"
+          }
+        },
+        "subheading_YQRxTc": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_qhNGY6": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_Cfppiz": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_it8eQe",
+        "button_QEbrgD",
+        "subheading_YQRxTc",
+        "heading_qhNGY6",
+        "richtext_Cfppiz"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_beJi4V": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "reading_text_Fj7XAJ": {
+      "type": "reading-text",
+      "name": "t:sections.reading_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "subheading": "THIS ISN’T A PERSONALITY QUIZ. IT’S A QUICK CHECK-IN THAT GIVES YOU A GROUNDED NEXT STEP.",
+        "content": "Know what you need—right now.",
+        "button_text": "",
+        "button_link": "",
+        "heading_tag": "h2",
+        "mobile_text_position": "place-self-center",
+        "desktop_text_position": "sm:place-self-center",
+        "content_width": "full",
+        "reading_speed": "0.8",
+        "separate_button": true,
+        "text_opacity": 20,
+        "overlay_color": "#faf4f0",
+        "overlay_opacity": 20
+      }
+    },
+    "image_with_text_overlay_hqdV4M": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_Yw4Vrt": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>Your truth is one breath away.</strong>"
+          },
+          "blocks": {}
+        },
+        "heading_hP464k": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>YOUR NEXT STEP STARTS HERE.</strong>",
+            "heading_size": "h3",
+            "html_tag": "p",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          },
+          "blocks": {}
+        },
+        "rich_text_ErJJDR": {
+          "type": "rich-text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Write some text about your products or your brand.</p>",
+            "content_width": "sm"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "subheading_Yw4Vrt",
+        "heading_hP464k",
+        "rich_text_ErJJDR"
+      ],
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "image": "shopify://shop_images/a-serene-photograph-of-a-woman-standing-_bcmJ5PWpStOS9bzTpmfp9w_mVEMSydHQ4GqB-8-pudBjw.png",
+        "overlay_color": "#f1efef",
+        "overlay_opacity": 20,
+        "enable_sticky_content": false,
+        "content_width": "md",
+        "desktop_text_position": "sm:place-self-center",
+        "mobile_text_position": "place-self-center"
+      }
+    },
+    "rich_text_wFAiP7": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_dFHGKg": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "desktop_spacing": 40,
+            "mobile_spacing": 20
+          }
+        },
+        "heading_BnRJ36": {
+          "type": "heading",
+          "settings": {
+            "text": "ready to begin?",
+            "heading_tag": "h3",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_NUCDbh": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Ready to begin?</p>"
+          }
+        },
+        "subheading_HKgbUb": {
+          "type": "subheading",
+          "settings": {
+            "text": "takes less than 60 sec"
+          }
+        },
+        "spacer_dexMNm": {
+          "type": "spacer",
+          "settings": {
+            "desktop_spacing": 40,
+            "mobile_spacing": 20
+          }
+        },
+        "button_CTC3w3": {
+          "type": "button",
+          "settings": {
+            "text": "Start 60-Sec Check-In",
+            "url": "https://app.yoursayla.com/selfassessment",
+            "open_in_new_tab": true,
+            "style": "solid",
+            "background": "",
+            "text_color": "#231f20"
+          }
+        },
+        "spacer_daNbay": {
+          "type": "spacer",
+          "settings": {
+            "desktop_spacing": 40,
+            "mobile_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "spacer_dFHGKg",
+        "heading_BnRJ36",
+        "richtext_NUCDbh",
+        "subheading_HKgbUb",
+        "spacer_dexMNm",
+        "button_CTC3w3",
+        "spacer_daNbay"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_DmnxdE",
+    "rich_text_jTmzrD",
+    "scrolling_content_8rDQJc",
+    "multi_column_i3AzpQ",
+    "rich_text_i34kgf",
+    "rich_text_beJi4V",
+    "reading_text_Fj7XAJ",
+    "image_with_text_overlay_hqdV4M",
+    "rich_text_wFAiP7"
+  ]
+}

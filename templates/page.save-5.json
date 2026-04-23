@@ -1,0 +1,126 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": false,
+        "content_width": "md"
+      }
+    },
+    "custom_liquid_y4HnbF": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.name",
+      "settings": {
+        "color_scheme": "",
+        "liquid": "<style>\n  /* --- Hide header + announcement bar + footer --- */\n  #header, .header, header { display: none !important; }\n  #announcement-bar, .announcement-bar, announcement-bar { display: none !important; }\n  #footer, .footer, footer { display: none !important; }\n\n  /* --- Hide newsletter section (robust) --- */\n  section[id^=\"shopify-section-\"][id*=\"newsletter\"] { display: none !important; }\n\n  /* --- Hide scrolling content section --- */\n  section[id^=\"shopify-section-\"][id*=\"scrolling_content\"],\n  .shopify-section-scrolling-content,\n  .scrolling-content {\n    display: none !important;\n    margin: 0 !important;\n    padding: 0 !important;\n    height: 0 !important;\n  }\n\n  /* --- Hide bottom color strip (scheme-4) --- */\n  .color-scheme--scheme-4 {\n    display: none !important;\n    margin: 0 !important;\n    padding: 0 !important;\n    height: 0 !important;\n  }\n\n  /* --- Collapse footer wrapper so no white band remains --- */\n  .shopify-section-group-footer-group,\n  .shopify-section-group-footer-group > *:empty {\n    display: none !important;\n    margin: 0 !important;\n    padding: 0 !important;\n    height: 0 !important;\n  }\n\n  /* --- Safety reset for any leftover color-scheme containers --- */\n  .color-scheme,\n  .color-scheme .section-spacing {\n    margin: 0 !important;\n    padding: 0 !important;\n  }\n\n  /* --- Background gradient for seamless blend --- */\n  html, body {\n    background: linear-gradient(to right, #ece6da, #ece3d9);\n  }\n\n  /* --- Remove bottom separator line below final section --- */\n  main > section:last-of-type,\n  main > section:last-of-type .container,\n  main > section:last-of-type .section-spacing {\n    border-bottom: none !important;\n    box-shadow: none !important;\n    margin-bottom: 0 !important;\n    padding-bottom: 1rem !important;\n  }\n\n  main#main { padding-bottom: 0 !important; }\n</style>",
+        "text_alignment": "left",
+        "add_vertical_spacing": false,
+        "add_horizontal_spacing": false
+      }
+    },
+    "animated_stickers_wKPi3G": {
+      "type": "animated-stickers",
+      "name": "💫 Animated Sticker",
+      "settings": {
+        "image": "shopify://shop_images/SayLa-Flower_1_4x_df972d89-3a53-4213-9b5d-2e2a734ce59b.png",
+        "animation": "float-scroll",
+        "animationSpeed": 10,
+        "sticker_align_desktop": "left",
+        "sticker_top_desktop": 135,
+        "sticker_side_desktop": 6,
+        "sticker_width_desktop": 200,
+        "mobile_hide": true,
+        "sticker_align_mobile": "center",
+        "sticker_top_mobile": -50,
+        "sticker_width_mobile": 100,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "rich_text_KTHEpE": {
+      "type": "rich-text",
+      "blocks": {
+        "liquid_jXDkYa": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p align = \"center\"> <a href=\"/\" itemprop=\"url\"><img src=\"{{ \"logo.png\" | asset_url }}\" alt=\"{{ shop.name }}\" itemprop=\"logo\" style=\"width:95%; max-width:175px; margin-top:10px;\"></a></p>"
+          }
+        },
+        "heading_QEJQCp": {
+          "type": "heading",
+          "settings": {
+            "text": "SAVE $5",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "liquid_xKREpD": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"klaviyo-form-UgkkZh\"></div>"
+          }
+        },
+        "subheading_cdHx74": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "richtext_9F7ezB": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Get soul care to your inbox and save $5 on your first $40+ SayLa order. </p><p>Pair a clean‑beauty ritual with a daily affirmation—helping you pause, speak truth, and reset your day, one swipe at a time.</p>"
+          }
+        },
+        "spacer_VfrpFB": {
+          "type": "spacer",
+          "settings": {
+            "desktop_spacing": 110,
+            "mobile_spacing": 50
+          }
+        },
+        "liquid_AaCbLm": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"text-align: center;\"><small><a href=\"https://yoursayla.com/\">SayLa</a> | <a href=\"https://yoursayla.com/policies/privacy-policy\">Privacy Policy</a></small></div>\n      </div>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_jXDkYa",
+        "heading_QEJQCp",
+        "liquid_xKREpD",
+        "subheading_cdHx74",
+        "richtext_9F7ezB",
+        "spacer_VfrpFB",
+        "liquid_AaCbLm"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_y4HnbF",
+    "animated_stickers_wKPi3G",
+    "rich_text_KTHEpE"
+  ]
+}

@@ -1,0 +1,362 @@
+{%- capture minify -%}
+  {%- liquid
+    assign duration = "2s"
+    if section.settings.animation == "spin"
+    assign duration = "20s"
+    endif
+    if section.settings.animation == "float"
+    assign duration = "5s"
+    endif
+  -%} 
+
+  {%- style -%}
+    #LT--{{ section.id }}, #shopify-section-{{ section.id }}.shopify-section {
+      overflow: visible !important;
+      height: 0 !important;
+    }
+    #LT--{{ section.id }} .luna-templates-animated-sticker-container {
+      position: relative;
+      z-index: 3;
+    }
+    #LT--{{ section.id }} .luna-templates-animated-sticker {
+      {%- if section.settings.animation != "none" or section.settings.animation != "spin-scroll" or section.settings.animation != "float-scroll" -%}
+        animation: {{ section.settings.animation }} {{ duration }} linear infinite;
+      {%- endif -%}
+      height: {{ section.settings.sticker_width_desktop }}px;
+      position: absolute;
+      top: {{ section.settings.sticker_top_desktop }}px;
+      width: {{ section.settings.sticker_width_desktop }}px;
+    }
+    #LT--{{ section.id }} .luna-templates-animated-sticker .stckrimg {
+      position: relative;
+      transition: all 100ms linear;
+    }
+    #LT--{{ section.id }} .luna-templates-animated-sticker .stckrimg img {
+      height: auto;
+      max-width: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+    @keyframes spin {
+      0% {
+        transform: rotateZ(360deg);
+      }
+      100% {
+        transform: rotateZ(0deg);
+      }
+    }
+    @keyframes float {
+      0% {
+        transform: translatey(0px);
+      }
+      50% {
+        transform: translatey(-20px);
+      }
+      100% {
+        transform: translatey(0px);
+      }
+    }
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(0.9);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    @media only screen and (min-width: 750px) {
+      #LT--{{ section.id }} .ltse--desktop-left {
+        left: {{ section.settings.sticker_side_desktop }}%;
+      }
+      #LT--{{ section.id }} .ltse--desktop-right {
+        right: {{ section.settings.sticker_side_desktop }}%;
+      }
+      #LT--{{ section.id }} .ltse--desktop-center {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+    }
+    @media only screen and (max-width: 749px) {
+      {% if section.settings.mobile_hide %}
+        #LT--{{ section.id }} {
+          display: none;
+        }
+      {% endif %}
+      #LT--{{ section.id }} .luna-templates-animated-sticker {
+        height: {{ section.settings.sticker_width_mobile }}px;
+        top: {{ section.settings.sticker_top_mobile }}px;
+        max-width: {{ section.settings.sticker_width_mobile }}px;
+      }
+      #LT--{{ section.id }} .ltse--mobile-left {
+        left: 10px;
+      }
+      #LT--{{ section.id }} .ltse--mobile-right {
+        right: 10px;
+      }
+      #LT--{{ section.id }} .ltse--mobile-center {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+    }
+    /* Custom CSS */
+    {{ section.settings.custom_css }}
+  {%- endstyle -%}
+
+  <!-- This section is designed and built by Luna Templates. Find more at https://lunatemplates.co -->
+
+  <sticker-animated data-animation-speed="{{ section.settings.animationSpeed | plus: 0.00 | divided_by: 100 }}">
+    <section id="LT--{{ section.id }}" class="LT__section luna-templates__animated-sticker {{ section.settings.css_class }}" data-animation="{{ section.settings.animation }}">
+      <div class="luna-templates-animated-sticker-container">
+        <div class="luna-templates-animated-sticker ltse--desktop-{{ section.settings.sticker_align_desktop }} ltse--mobile-{{ section.settings.sticker_align_mobile }}">
+          <div class="stckrimg">
+            {%- if section.settings.image -%}
+              <img src="{{ section.settings.image | image_url: width: 500 }}" alt="{{ section.settings.image.alt }}" height="{{ section.settings.image.height }}" loading="lazy" width="{{ section.settings.image.width }}">
+            {%- endif -%}
+          </div>
+        </div>
+      </div> 
+    </section>
+  </sticker-animated>
+{%- endcapture -%}
+{{ minify | strip_newlines }}
+
+{% javascript %}
+  if (!customElements.get('sticker-animated')) {
+    class StickerAnimated extends HTMLElement {
+      constructor() {
+        super()
+        this.animationSpeed = parseFloat(this.dataset.animationSpeed)
+
+        this.init()
+
+        document.addEventListener('readystatechange', function() {
+          if(document.readyState == 'interactive') {
+          }
+        })
+        document.addEventListener("shopify:section:load", (event) => {
+          this.init()
+        });
+      }
+      init() {
+        this.selecter = ".stckrimg"
+        this.stckrimgs = this.querySelectorAll(this.selecter);
+        this.scroll();
+      }
+      scroll() {
+        Array.from(this.stckrimgs).forEach(stckrimg => {
+          window.addEventListener("scroll", () => {
+            const section = stckrimg.closest(`.shopify-section`)
+            const LT__section = stckrimg.closest(`.luna-templates__animated-sticker`)
+            const sticker = this.querySelector('.luna-templates-animated-sticker');
+            const {bottom, top} = sticker.getBoundingClientRect();
+
+            if (top > 0 && (bottom - window.innerHeight) < 0) {
+              if (LT__section.dataset.animation == "spin-scroll") {
+                stckrimg.style.rotate = (bottom * this.animationSpeed) + "deg";
+                stckrimg.style.top = 0 + "px";
+              }
+
+              if (LT__section.dataset.animation == "float-scroll") {
+                stckrimg.style.rotate = 0 + "deg";
+                // stckrimg.style.top = ((bottom + (window.innerHeight / 2)) * this.animationSpeed) + "px";
+                stckrimg.style.top = (((sticker.offsetTop + this.offsetTop) - (window.scrollY + (window.innerHeight / 2))) * this.animationSpeed) + "px";
+              }
+            }
+          }, {
+            passive: true,
+            capture: false,
+          })
+        })
+      }
+    }
+    customElements.define('sticker-animated', StickerAnimated)
+  }
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "💫 Animated Sticker",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "animation",
+      "label": "Animation",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "spin",
+          "label": "Spin"
+        },
+        {
+          "value": "spin-scroll",
+          "label": "Spin on scroll"
+        },
+        {
+          "value": "float",
+          "label": "Float"
+        },
+        {
+          "value": "pulse",
+          "label": "Pulse"
+        },
+        {
+          "value": "float-scroll",
+          "label": "Float up on scroll"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "range",
+      "id": "animationSpeed",
+      "label": "Float up on scroll animation speed",
+      "default": 20,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    {
+      "type": "header",
+      "content": "Desktop Position"
+    },
+    {
+      "type": "select",
+      "id": "sticker_align_desktop",
+      "label": "Align Sticker (Desktop)",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "sticker_top_desktop",
+      "label": "Distance from top (desktop)",
+      "default": 40,
+      "min": -250,
+      "max": 200,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "sticker_side_desktop",
+      "label": "Distance from side (desktop)",
+      "default": 5,
+      "min": 0,
+      "max": 45,
+      "step": 1,
+      "unit": "%"
+    },
+    {
+      "type": "range",
+      "id": "sticker_width_desktop",
+      "label": "Width (desktop)",
+      "default": 150,
+      "min": 50,
+      "max": 250,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Mobile Position"
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_hide",
+      "label": "Hide on mobile",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "sticker_align_mobile",
+      "label": "Align Sticker (Mobile)",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "sticker_top_mobile",
+      "label": "Distance from top (mobile)",
+      "default": 40,
+      "min": -100,
+      "max": 100,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "sticker_width_mobile",
+      "label": "Width (mobile)",
+      "default": 100,
+      "min": 50,
+      "max": 200,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Advanced"
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "html",
+      "id": "custom_css",
+      "label": "Custom CSS",
+      "info": "Write your CSS here. Use !important when necessary."
+    }
+  ],
+  "presets": [
+    {
+      "name": "💫 Animated Sticker",
+      "category": "Luna Templates"
+    }
+  ]
+}
+{% endschema %}

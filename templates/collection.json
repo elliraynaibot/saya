@@ -1,0 +1,151 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "allow_transparent_header": false,
+        "layout": "background",
+        "show_description": false,
+        "collection_title_size": "h3",
+        "content_position": "place-self-center",
+        "background_color_scheme": "scheme-1",
+        "image_size": "xs",
+        "quick_navigation_menu": ""
+      }
+    },
+    "rich_text_jkRDkt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_aKVPjK": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ collection.title }}",
+            "heading_tag": "h3",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_yPhHTQ": {
+          "type": "richtext",
+          "settings": {
+            "text": "{{ collection.description }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aKVPjK",
+        "richtext_yPhHTQ"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "lg",
+        "text_alignment": "center"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "color_scheme": "",
+        "products_per_page": 8,
+        "products_per_row_mobile": 2,
+        "products_per_row_desktop": 4,
+        "show_product_card_size_selector": false,
+        "quick_links_menu": "",
+        "filter_layout": "drawer",
+        "show_sort_by": false,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": false,
+        "open_filters_by_default": false,
+        "swatch_selector_size": "lg"
+      }
+    },
+    "text_with_icons_eNyCf8": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_JgYmVa": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLA_USDA_Organic.png",
+            "title": "Organic Formula",
+            "heading_tag": "h6",
+            "content": ""
+          }
+        },
+        "item_FRmTnn": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLA_Clean_Ingredients.png",
+            "title": "Clean Ingredients",
+            "heading_tag": "h6",
+            "content": ""
+          }
+        },
+        "item_3GxTGJ": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLA_Daily_Affirmations.png",
+            "title": "Daily Affirmations",
+            "heading_tag": "h6",
+            "content": ""
+          }
+        },
+        "item_FzpmVM": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/SayLA_Cruelty_Free.png",
+            "title": "Cruelty-Free",
+            "heading_tag": "h6",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_JgYmVa",
+        "item_FRmTnn",
+        "item_3GxTGJ",
+        "item_FzpmVM"
+      ],
+      "name": "t:sections.text_with_icons.name",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "subheading": "",
+        "title": "Where Lip Care Meets Soul Care",
+        "content": "",
+        "heading_tag": "h3",
+        "text_alignment": "center",
+        "items_per_row_desktop": 4,
+        "stack_on_mobile": true,
+        "separator_style": "vertical",
+        "icon_position": "stacked",
+        "icon_width": 68,
+        "mobile_icon_width": 68,
+        "item_text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_jkRDkt",
+    "main",
+    "text_with_icons_eNyCf8"
+  ]
+}

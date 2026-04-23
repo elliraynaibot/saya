@@ -1,0 +1,658 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "content_width": "md"
+      }
+    },
+    "reading_text_c4YdUP": {
+      "type": "reading-text",
+      "custom_css": [
+        "p {background-color: #f1efef; /* Pearl */ padding: 30px; /* Optional: adds space around the text within the background */ border-radius: 15px;}"
+      ],
+      "name": "t:sections.reading_text.name",
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify://shop_images/SayLA_Gold_Background_2600x1400_cbcc03dc-682a-4ef7-a6db-15ef6e9bc0c4.png",
+        "mobile_image": "shopify://shop_images/SayLA_Gold_Background_800x1800_mobile.png",
+        "subheading": "",
+        "content": "Life felt loud—maybe you know the feeling too.",
+        "button_text": "",
+        "button_link": "",
+        "heading_tag": "h1",
+        "mobile_text_position": "place-self-center",
+        "desktop_text_position": "sm:place-self-center",
+        "content_width": "md",
+        "reading_speed": "1.5",
+        "separate_button": false,
+        "text_opacity": 15,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_CwVPqh": {
+      "type": "rich-text",
+      "blocks": {
+        "image_g9dkmg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/About_SayLA_Founder_-_Meredith_2.webp",
+            "width_mode": "custom",
+            "max_width": 530,
+            "mobile_max_width": 600
+          }
+        },
+        "column_delimiter_GR6iEp": {
+          "type": "column_delimiter",
+          "settings": {}
+        },
+        "spacer_PxRgfp": {
+          "type": "spacer",
+          "settings": {
+            "desktop_spacing": 40,
+            "mobile_spacing": 0
+          }
+        },
+        "richtext_KVwyx9": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>In a season marked by relational tension, business burnout, and caring for my dad through stage 4 cancer, I found myself longing for peace, clarity, and space to breathe.<br/><br/>Over months of wrestling, praying, and waiting for clarity, the idea quietly surfaced. I began to wonder:<br/><br/>What if something as simple as lip balm could help anchor you in truth?</p><p>Something you reach for daily—a gentle nudge to pause, breathe, and remember what’s true.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_g9dkmg",
+        "column_delimiter_GR6iEp",
+        "spacer_PxRgfp",
+        "richtext_KVwyx9"
+      ],
+      "custom_css": [
+        "p {font-size: 19px;}"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "content_width": "sm",
+        "text_alignment": "left"
+      }
+    },
+    "animated_stickers_6CnMiW": {
+      "type": "animated-stickers",
+      "name": "💫 Animated Sticker",
+      "settings": {
+        "image": "shopify://shop_images/SayLa-Flower_3_4x_c940086a-0305-422c-a8df-8373d34f0317.png",
+        "animation": "none",
+        "animationSpeed": 20,
+        "sticker_align_desktop": "left",
+        "sticker_top_desktop": 80,
+        "sticker_side_desktop": 8,
+        "sticker_width_desktop": 170,
+        "mobile_hide": true,
+        "sticker_align_mobile": "center",
+        "sticker_top_mobile": 40,
+        "sticker_width_mobile": 100,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "dynamic_grid_QXYrrb": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_KwkCVL": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 4,
+            "desktop_column_start": 6,
+            "desktop_column_end": 12,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": -2,
+            "mobile_row_start": 5,
+            "mobile_column_start": 2,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_Lwx9im": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>For the woman juggling ambition and anxiety, beauty and burnout—SayLa is your pause.</p><p>Our organic balm delivers more than nourishment. Each one carries a soul-anchoring message like “I am Loved” or “I Choose Peace.” It’s not just skincare. It’s a rhythm of renewal—woven into your day.</p><p>SayLa means <strong>“to pause and reflect.</strong>”<br/>And that’s what I hope this becomes for you.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_Lwx9im"
+          ]
+        },
+        "dynamic_grid_item_YwQXx3": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 1,
+            "desktop_column_start": 4,
+            "desktop_column_end": 14,
+            "desktop_horizontal_adjustment": 0.5,
+            "desktop_vertical_adjustment": 0.5,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 4.5,
+            "parallax_speed": 3,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_UXTVEw": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "That’s how SayLa was <em>born</em>.",
+                "show_text_vertically": false,
+                "font_size_desktop": 5.5,
+                "font_size_mobile": 12,
+                "font_size_line_height": 0.9,
+                "html_tag": "h3",
+                "indent": "none",
+                "highlight_effect": "circle",
+                "highlight_accent_color": "#c6aa77",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_UXTVEw"
+          ]
+        },
+        "dynamic_grid_item_qcdwdi": {
+          "type": "_dynamic-grid-item",
+          "disabled": true,
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 7,
+            "desktop_column_start": 4,
+            "desktop_column_end": 14,
+            "desktop_horizontal_adjustment": 3,
+            "desktop_vertical_adjustment": 2,
+            "mobile_row_start": 19,
+            "mobile_column_start": 3,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 2.5,
+            "parallax_speed": -8,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "dynamic_grid_heading_ap4ibe": {
+              "type": "_dynamic-grid-heading",
+              "name": "t:blocks.heading.name",
+              "settings": {
+                "text": "A moment to <em>reset</em>.",
+                "show_text_vertically": false,
+                "font_size_desktop": 3,
+                "font_size_mobile": 9,
+                "font_size_line_height": 1,
+                "html_tag": "h4",
+                "indent": "none",
+                "highlight_effect": "circle",
+                "highlight_accent_color": "#c6aa77",
+                "highlight_text_color": "#a69e8d"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_ap4ibe"
+          ]
+        },
+        "dynamic_grid_item_7ifUYp": {
+          "type": "_dynamic-grid-item",
+          "disabled": true,
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 8,
+            "desktop_column_start": 4,
+            "desktop_column_end": 14,
+            "desktop_horizontal_adjustment": -5,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 21,
+            "mobile_column_start": 1,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 2,
+            "parallax_speed": 6,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "dynamic_grid_heading_HMWiWh": {
+              "type": "_dynamic-grid-heading",
+              "name": "t:blocks.heading.name",
+              "settings": {
+                "text": "A practice of speaking <em>truth</em>.",
+                "show_text_vertically": false,
+                "font_size_desktop": 3,
+                "font_size_mobile": 9,
+                "font_size_line_height": 1,
+                "html_tag": "h4",
+                "indent": "none",
+                "highlight_effect": "underline",
+                "highlight_accent_color": "#c6aa77",
+                "highlight_text_color": "#a69e8d"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_HMWiWh"
+          ]
+        },
+        "dynamic_grid_item_UDdjBb": {
+          "type": "_dynamic-grid-item",
+          "disabled": true,
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "right",
+            "desktop_row_start": 9,
+            "desktop_column_start": 4,
+            "desktop_column_end": 14,
+            "desktop_horizontal_adjustment": 5,
+            "desktop_vertical_adjustment": -2,
+            "mobile_row_start": 24,
+            "mobile_column_start": 1,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 5,
+            "mobile_vertical_adjustment": 1,
+            "parallax_speed": -4,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "dynamic_grid_heading_pxXxBx": {
+              "type": "_dynamic-grid-heading",
+              "name": "t:blocks.heading.name",
+              "settings": {
+                "text": "A quiet act of <em>becoming</em>.",
+                "show_text_vertically": false,
+                "font_size_desktop": 3,
+                "font_size_mobile": 9,
+                "font_size_line_height": 1,
+                "html_tag": "h4",
+                "indent": "none",
+                "highlight_effect": "circle",
+                "highlight_accent_color": "#c6aa77",
+                "highlight_text_color": "#a69e8d"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_pxXxBx"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_KwkCVL",
+        "dynamic_grid_item_YwQXx3",
+        "dynamic_grid_item_qcdwdi",
+        "dynamic_grid_item_7ifUYp",
+        "dynamic_grid_item_UDdjBb"
+      ],
+      "custom_css": [
+        "p {font-size: 19px;}"
+      ],
+      "name": "t:sections.dynamic_grid.name",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 12,
+        "mobile_gap": 10,
+        "overlay_color": "#f1efef",
+        "overlay_opacity": 0
+      }
+    },
+    "reading_text_j9U9NX": {
+      "type": "reading-text",
+      "disabled": true,
+      "name": "t:sections.reading_text.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image": "shopify://shop_images/SayLa-Gold-on-Champ_4x_26a39381-081d-472c-b288-d6fc93f01ef4.png",
+        "subheading": "",
+        "content": "SayLa means “to pause and reflect.” And that’s what I hope this becomes for you.",
+        "button_text": "",
+        "button_link": "",
+        "heading_tag": "h2",
+        "mobile_text_position": "place-self-center",
+        "desktop_text_position": "sm:place-self-center",
+        "content_width": "lg",
+        "reading_speed": "1.5",
+        "separate_button": false,
+        "text_opacity": 0,
+        "overlay_color": "#f1efef",
+        "overlay_opacity": 50
+      }
+    },
+    "animated_stickers_mXQRna": {
+      "type": "animated-stickers",
+      "name": "💫 Animated Sticker",
+      "settings": {
+        "image": "shopify://shop_images/SayLa-Flower_2_4x_8cd4b1ef-4b5e-45f5-80e6-d5e309a5e480.png",
+        "animation": "none",
+        "animationSpeed": 20,
+        "sticker_align_desktop": "right",
+        "sticker_top_desktop": -145,
+        "sticker_side_desktop": 9,
+        "sticker_width_desktop": 150,
+        "mobile_hide": true,
+        "sticker_align_mobile": "center",
+        "sticker_top_mobile": 40,
+        "sticker_width_mobile": 100,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "dynamic_grid_M7b3Rc": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_MTc4Re": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "right",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 6,
+            "desktop_horizontal_adjustment": 2,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 2,
+            "mobile_column_start": 1,
+            "mobile_column_end": 6,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": -3.5,
+            "parallax_speed": -4,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "dynamic_grid_heading_PdrMXj": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "A moment to <em>reset</em>.",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 11,
+                "font_size_line_height": 1,
+                "html_tag": "h3",
+                "indent": "none",
+                "highlight_effect": "circle",
+                "highlight_accent_color": "#c6aa77",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_PdrMXj"
+          ]
+        },
+        "dynamic_grid_item_J948VT": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 3,
+            "desktop_column_start": 11,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": -2,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 2,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 4,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "dynamic_grid_heading_t4Tqjm": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "A practice of speaking<em> truth</em>.",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 11,
+                "font_size_line_height": 1,
+                "html_tag": "h3",
+                "indent": "none",
+                "highlight_effect": "circle",
+                "highlight_accent_color": "#c6aa77",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_t4Tqjm"
+          ]
+        },
+        "dynamic_grid_item_8jhbgK": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "desktop_only",
+            "text_alignment": "center",
+            "desktop_row_start": 1,
+            "desktop_column_start": 8,
+            "desktop_column_end": 10,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": -2,
+            "mobile_row_start": 1,
+            "mobile_column_start": 4,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": -5,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_BHtzci": {
+              "type": "image-with-caption",
+              "name": "t:blocks.image.name",
+              "settings": {
+                "image": "shopify://shop_images/About_Us_Lip_Balm.png",
+                "mobile_image": "shopify://shop_images/About_Us_Lip_Balm.png",
+                "caption": "",
+                "max_width": 93,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_BHtzci"
+          ]
+        },
+        "dynamic_grid_item_AGdcq9": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 7,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": -1.5,
+            "mobile_row_start": 7,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_taFJgQ": {
+              "type": "_dynamic-grid-heading",
+              "name": "t:blocks.heading.name",
+              "settings": {
+                "text": "A quiet act of <em>becoming</em>.",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 10,
+                "font_size_line_height": 1,
+                "html_tag": "h3",
+                "indent": "none",
+                "highlight_effect": "circle",
+                "highlight_accent_color": "#c6aa77",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_taFJgQ"
+          ]
+        },
+        "dynamic_grid_item_nRaJPc": {
+          "type": "_dynamic-grid-item",
+          "name": "Grid item",
+          "settings": {
+            "visibility": "mobile_only",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 9,
+            "mobile_column_start": 1,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_MTc4Re",
+        "dynamic_grid_item_J948VT",
+        "dynamic_grid_item_8jhbgK",
+        "dynamic_grid_item_AGdcq9",
+        "dynamic_grid_item_nRaJPc"
+      ],
+      "custom_css": [
+        "p {font-size: 20px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-5",
+        "allow_transparent_header": false,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": false,
+        "add_horizontal_spacing": false,
+        "gap": 16,
+        "mobile_gap": 20,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_nXdtAU": {
+      "type": "rich-text",
+      "blocks": {
+        "image_NcfLTq": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SayLaLogomark-Pearl.svg",
+            "width_mode": "custom",
+            "max_width": 100,
+            "mobile_max_width": 100
+          }
+        },
+        "richtext_QjnFz8": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Welcome to SayLa—where beauty is rooted in purpose, and self-care starts with the soul.</p>"
+          }
+        },
+        "image_ptFp6a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SayLa_Lifestyle_Meredith.png",
+            "width_mode": "custom",
+            "max_width": 300,
+            "mobile_max_width": 270
+          }
+        },
+        "image_JgaB4J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/xo_-_Meredith_signature_PEARL.png",
+            "width_mode": "custom",
+            "max_width": 300,
+            "mobile_max_width": 220
+          }
+        },
+        "button_VUfYtk": {
+          "type": "button",
+          "settings": {
+            "text": "Discover your Ritual",
+            "url": "shopify://collections/lip-balms",
+            "open_in_new_tab": false,
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_NcfLTq",
+        "richtext_QjnFz8",
+        "image_ptFp6a",
+        "image_JgaB4J",
+        "button_VUfYtk"
+      ],
+      "custom_css": [
+        "p {font-size: 20px;}"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "content_width": "sm",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "reading_text_c4YdUP",
+    "rich_text_CwVPqh",
+    "animated_stickers_6CnMiW",
+    "dynamic_grid_QXYrrb",
+    "reading_text_j9U9NX",
+    "animated_stickers_mXQRna",
+    "dynamic_grid_M7b3Rc",
+    "rich_text_nXdtAU"
+  ]
+}

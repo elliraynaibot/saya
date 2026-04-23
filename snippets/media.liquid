@@ -84,7 +84,9 @@ Supported variables
             assign image_class = image_class | append: ' constrained-image'
           endif
 
-          echo media | image_url: width: media.preview_image.width | image_tag: loading: loading, fetchpriority: fetchpriority, sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', draggable: draggable, class: image_class, style: image_style_attribute
+          {%- assign max_width = media.preview_image.width -%}
+          {%- if max_width > 1400 -%}{%- assign max_width = 1400 -%}{%- endif -%}
+          echo media | image_url: width: max_width | image_tag: loading: loading, fetchpriority: fetchpriority, decoding: 'async', sizes: sizes, widths: '400,800,1200,1400,1600,2000', draggable: draggable, class: image_class, style: image_style_attribute
         -%}
       </picture>
     {%- else -%}
@@ -97,7 +99,11 @@ Supported variables
           assign image_class = image_class | append: ' constrained-image'
         endif
 
-        echo media | image_url: width: media.preview_image.width | image_tag: loading: loading, fetchpriority: fetchpriority, sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', draggable: draggable, class: image_class, style: image_style_attribute
+        {%- assign max_width = 1400 -%}
+        {%- if media.preview_image.width < max_width -%}
+          {%- assign max_width = media.preview_image.width -%}
+        {%- endif -%}
+        echo media | image_url: width: max_width | image_tag: loading: loading, fetchpriority: fetchpriority, decoding: 'async', sizes: sizes, widths: '400,800,1200,1600,2000', draggable: draggable, class: image_class, style: image_style_attribute
       -%}
     {%- endif -%}
 
@@ -124,13 +130,13 @@ Supported variables
                 width="{{ mobile_custom_poster.width }}"
                 height="{{ mobile_custom_poster.height }}"
               >
-              {{- custom_poster | image_url: width: custom_poster.width | image_tag: loading: loading, fetchpriority: fetchpriority, sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
+              {{- custom_poster | image_url: width: 1400 | image_tag: loading: loading, fetchpriority: fetchpriority, decoding: 'async', sizes: sizes, widths: '400,800,1200,1400' -}}
             </picture>
           {%- else -%}
             {{- custom_poster | image_url: width: custom_poster.width | image_tag: loading: loading, fetchpriority: fetchpriority, sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
           {%- endif -%}
         {%- else -%}
-          {{- custom_poster | image_url: width: custom_poster.width | image_tag: loading: loading, fetchpriority: fetchpriority, sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
+          {{- custom_poster | image_url: width: 1400 | image_tag: loading: loading, fetchpriority: fetchpriority, decoding: 'async', sizes: sizes, widths: '400,800,1200,1400' -}}
         {%- endif -%}
       {%- endunless -%}
 

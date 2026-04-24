@@ -79,15 +79,15 @@ Supported variables
         
         {%- liquid
           assign image_class = class
-          
+
           if image_style_attribute != blank
             assign image_class = image_class | append: ' constrained-image'
           endif
 
-          {%- assign max_width = 1400 -%}
-          {%- if media.preview_image.width < max_width -%}
-            {%- assign max_width = media.preview_image.width -%}
-          {%- endif -%}
+          assign max_width = 1400
+          if media.preview_image.width < max_width
+            assign max_width = media.preview_image.width
+          endif
           echo media | image_url: width: max_width | image_tag: loading: loading, fetchpriority: fetchpriority, decoding: 'async', sizes: sizes, widths: '400,800,1200,1600,2000', draggable: draggable, class: image_class, style: image_style_attribute
         -%}
       </picture>
@@ -96,15 +96,15 @@ Supported variables
 
       {%- liquid
         assign image_class = class
-        
+
         if image_style_attribute != blank
           assign image_class = image_class | append: ' constrained-image'
         endif
 
-        {%- assign max_width = 1400 -%}
-        {%- if media.preview_image.width < max_width -%}
-          {%- assign max_width = media.preview_image.width -%}
-        {%- endif -%}
+        assign max_width = 1400
+        if media.preview_image.width < max_width
+          assign max_width = media.preview_image.width
+        endif
         echo media | image_url: width: max_width | image_tag: loading: loading, fetchpriority: fetchpriority, decoding: 'async', sizes: sizes, widths: '400,800,1200,1600,2000', draggable: draggable, class: image_class, style: image_style_attribute
       -%}
     {%- endif -%}
@@ -139,7 +139,8 @@ Supported variables
           {%- endif -%}
         {%- else -%}
           {{- custom_poster | image_url: width: 1400 | image_tag: loading: loading, fetchpriority: fetchpriority, decoding: 'async', sizes: sizes, widths: '400,800,1200,1400' -}}
-        {%- endunless -%}
+        {%- endif -%}
+      {%- endunless -%}
 
       {%- if media_type == 'video' -%}
         {%- liquid
